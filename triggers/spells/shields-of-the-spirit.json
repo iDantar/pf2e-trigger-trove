@@ -91,7 +91,7 @@
             "id": "6rZxKLUKqudo4ue9",
             "outs": {
                 "out": {
-                    "connection": "OiADRYpIFtkIURxI:ins:in"
+                    "connection": "sH7kLm9nPq2vWx4Y:ins:in"
                 }
             },
             "position": {
@@ -101,49 +101,159 @@
             "type": "__gate_exit__"
         },
         {
-            "id": "OiADRYpIFtkIURxI",
+            "id": "sH7kLm9nPq2vWx4Y",
             "inputs": {
-                "pf2e": {
-                    "value": "Compendium.pf2e.classfeatures.Item.ehL7mnkqxN5wIkgu"
-                },
-                "sf2e": {
-                    "value": "Compendium.pf2e-anachronism.class-features.Item.ehL7mnkqxN5wIkgu"
+                "option": {
+                    "value": "self:trait:holy"
                 },
                 "target": {
                     "connection": "6rZxKLUKqudo4ue9:outputs:YLcsqB558JEtNo0z"
                 }
             },
             "outs": {
+                "false": {
+                    "connection": "tU8jKo0oQr3wXy5Z:ins:in"
+                },
                 "true": {
-                    "connection": "7TSgWRIHnOjzDEyg:ins:in"
+                    "connection": "vW0hIq2qSt5yZa7B:ins:in"
                 }
             },
             "position": {
                 "x": 645.5675004819744,
-                "y": 777.4545112781958
+                "y": 711.804511278196
             },
-            "type": "has-item"
+            "type": "has-option"
         },
         {
-            "id": "7TSgWRIHnOjzDEyg",
+            "id": "tU8jKo0oQr3wXy5Z",
             "inputs": {
-                "flag": {
-                    "value": "sanctification"
+                "option": {
+                    "value": "self:trait:unholy"
                 },
-                "item": {
-                    "connection": "OiADRYpIFtkIURxI:outputs:item"
+                "target": {
+                    "connection": "6rZxKLUKqudo4ue9:outputs:YLcsqB558JEtNo0z"
                 }
             },
+            "outs": {
+                "false": {
+                    "connection": "xY2fGs4sUv7aBc9D:ins:in"
+                },
+                "true": {
+                    "connection": "wX1gHr3rTu6zAb8C:ins:in"
+                }
+            },
+            "position": {
+                "x": 645.5675004819744,
+                "y": 877.4545112781958
+            },
+            "type": "has-option"
+        },
+        {
+            "custom": {
+                "outputs": {
+                    "yZ3eFt5tVw8bCd0E": {
+                        "id": "yZ3eFt5tVw8bCd0E",
+                        "isArray": false,
+                        "label": "Trait",
+                        "slug": "entry",
+                        "type": "text"
+                    }
+                },
+                "title": "Damage Trait"
+            },
+            "id": "uV9iJp1pRs4xYz6A",
             "outs": {
                 "out": {
                     "connection": "6Vw9BDZrrZ1uLZ9S:ins:in"
                 }
             },
             "position": {
-                "x": 953.1444235588971,
-                "y": 711.804511278196
+                "x": 292.4929084073815,
+                "y": 1045.592390066075
             },
-            "type": "choiceset-selection"
+            "type": "__gate_exit__"
+        },
+        {
+            "custom": {
+                "inputs": {
+                    "yZ3eFt5tVw8bCd0E": {
+                        "id": "yZ3eFt5tVw8bCd0E",
+                        "isArray": false,
+                        "label": "Trait",
+                        "slug": "entry",
+                        "type": "text"
+                    }
+                }
+            },
+            "id": "vW0hIq2qSt5yZa7B",
+            "inputs": {
+                "yZ3eFt5tVw8bCd0E": {
+                    "value": "holy"
+                }
+            },
+            "outs": {
+                "out": {
+                    "connection": "uV9iJp1pRs4xYz6A:ins:in"
+                }
+            },
+            "position": {
+                "x": 953.1444235588971,
+                "y": 665.804511278196
+            },
+            "type": "__gate_entry__"
+        },
+        {
+            "custom": {
+                "inputs": {
+                    "yZ3eFt5tVw8bCd0E": {
+                        "id": "yZ3eFt5tVw8bCd0E",
+                        "isArray": false,
+                        "label": "Trait",
+                        "slug": "entry",
+                        "type": "text"
+                    }
+                }
+            },
+            "id": "wX1gHr3rTu6zAb8C",
+            "inputs": {
+                "yZ3eFt5tVw8bCd0E": {
+                    "value": "unholy"
+                }
+            },
+            "outs": {
+                "out": {
+                    "connection": "uV9iJp1pRs4xYz6A:ins:in"
+                }
+            },
+            "position": {
+                "x": 953.1444235588971,
+                "y": 837.4545112781958
+            },
+            "type": "__gate_entry__"
+        },
+        {
+            "custom": {
+                "inputs": {
+                    "yZ3eFt5tVw8bCd0E": {
+                        "id": "yZ3eFt5tVw8bCd0E",
+                        "isArray": false,
+                        "label": "Trait",
+                        "slug": "entry",
+                        "type": "text"
+                    }
+                }
+            },
+            "id": "xY2fGs4sUv7aBc9D",
+            "outs": {
+                "out": {
+                    "connection": "uV9iJp1pRs4xYz6A:ins:in"
+                }
+            },
+            "position": {
+                "x": 953.1444235588971,
+                "y": 977.4545112781958
+            },
+            "type": "__gate_entry__"
         },
         {
             "id": "qwptxc9qZysscURr",
@@ -161,7 +271,7 @@
                     "connection": "99g6vXmr73UNfICU:outputs:entry"
                 },
                 "traits": {
-                    "connection": "7TSgWRIHnOjzDEyg:outputs:selection"
+                    "connection": "uV9iJp1pRs4xYz6A:outputs:yZ3eFt5tVw8bCd0E"
                 }
             },
             "position": {
