@@ -1,654 +1,669 @@
 {
-    "TRIGGERTROVE": {
-        "AcidSplash": {
-            "Trigger": {
-                "Description": "When an attack with <strong>Acid Splash</strong> critically succeeds, add its corresponding persistent acid damage to the target."
-            }
-        },
-        "ActionHero": {
-            "Trigger": {
-                "Description": "<p>If the origin of a successful Strike with an automatic weapon has the <strong>Action Hero</strong> fighting style, the target becomes suppressed until the start of the origin's next turn.</p>"
-            }
-        },
-        "AirAuraJunction": {
-            "Trigger": {
-                "Description": "<p>When a combatant starts their turn within the kinetic aura of an <strong>air gate</strong> kineticist with its <strong>aura junction</strong>, grant that character the corresponding bonus to their Speeds via effect until the end of their turn.</p><p>This benefit overlaps with the system's effect when inside the aura, but persists once the character leaves the aura until the end of their turn.</p>"
-            }
-        },
-        "AldoriSwordlord": {
-            "Trigger": {
-                "Description": "When the origin of an attack with an <em>aldori dueling sword</em> has the <strong>Aldori Swordlord</strong> feat, add its corresponding effect to them, according to their degree of success."
-            }
-        },
-        "AmuletsAbeyance": {
-            "Trigger": {
-                "Description": "When a target takes damage and they have <strong>Amulet's Abeyance</strong>'s resistance effect, remove that effect."
-            }
-        },
-        "AttackedFromWithin": {
-            "Trigger": {
-                "Description": "<p>When a roller saves against <strong>Attacked From Within</strong>, increase their frightened condition depending on their degree of success. If they critically fail, add the off-guard condition for 1 round.</p>"
-            }
-        },
-        "AuraOfCourage": {
-            "Trigger": {
-                "Description": "When a combatant with <strong>Aura of Courage</strong> ends their turn, all allies within their aura reduce their frightened condition by 1."
-            }
-        },
-        "BlindingAura": {
-            "Trigger": {
-                "Description": "<p>When a combatant starts their turn within a Shining Child's <strong>Blinding Aura</strong>, send that ability to chat. When a roller fails their saving throw against Blinding Aura, add the blinded condition according to their degree of success. On a critical success, the roller does not trigger further Blinding Aura triggers.</p>"
-            }
-        },
-        "BonMot": {
-            "Trigger": {
-                "Description": "When the roller of a Diplomacy check is using the <strong>Bon Mot</strong> action, apply Bon Mot's effect to the target or roller, depending on the outcome. If the roller succeeds on their Bon Mot, remove the effect resulting from a critically failed Bon Mot, if there is one."
-            }
-        },
-        "BrutalBeating": {
-            "Trigger": {
-                "Description": "When a target takes damage from an origin with the <strong>Brutal Beating</strong> feat, that target becomes frightened 1."
-            }
-        },
-        "CastIntoTime": {
-            "Trigger": {
-                "Description": "<p>When a roller saves against the <strong>Cast Into Time</strong> spell, apply the sickened condition depending on their degree of success.</p>"
-            }
-        },
-        "CausticBlast": {
-            "Trigger": {
-                "Description": "<p>When a roller critically fails their save against <strong>Caustic Blast</strong>, they take persistent acid damage.</p>"
-            }
-        },
-        "ChampionsResistance": {
-            "Trigger": {
-                "Description": "<p>When a target takes damage and they have a <strong>Champion's Resistance</strong> effect, remove that effect.</p><p>If the effect origin has <strong>Glimpse of Redemption</strong>, the damage origin also becomes enfeebled until the end of its next turn. If they have the <strong>Weight of Guilt</strong> feat, the champion can choose whether to apply the stupefied or enfeebled conditions.</p>",
-                "Redemption": {
-                    "AwaitConfirmation": {
-                        "Prompt": "Will you use Weight of Guilt to make the enemy stupefied rather than enfeebled?",
-                        "Title": "Weight of Guilt"
-                    }
-                }
-            }
-        },
-        "CommandingPresence": {
-            "Trigger": {
-                "Description": "<p>When a target enters a <strong>Commanding Presence</strong> aura, send that ability to chat, and add an effect tracking the target's immunity. If a roller fails their saving throw against that ability, add the frightened condition to them with the corresponding value.</p><"
-            }
-        },
-        "CriticalSpecialization": {
-            "Trigger": {
-                "Description": {
-                    "Bow": "When critical damage is dealt with a weapon in the bow group and the origin has its critical specialization effect, add the immobilized condition to the target.",
-                    "Spear": "When critical damage is dealt with a weapon in the spear group and the origin has its critical specialization effect, add the clumsy condition to the target until the start of the origin's turn. If the weapon has the grievous rune, the effect lasts for an additional round.",
-                    "Sword": "When critical damage is dealt with a weapon in the sword group and the origin has its critical specialization effect, add the off-guard condition to the target until the start of the origin's turn. If the weapon has the grievous rune, the effect lasts until the end of the origin's turn instead."
-                }
-            }
-        },
-        "CrownedInTempestsFury": {
-            "Trigger": {
-                "Description": "When a target enters a kinetic aura, or starts their turn within one, and the source of that aura is in <strong>Crowned in Tempest's Fury</strong> stance, roll 2d12 electricity damage against that target."
-            }
-        },
-        "Crushing": {
-            "Trigger": {
-                "Description": "When the origin of an attack critically hits and their weapon has a <strong>crushing</strong> or <strong>greater crushing</strong> rune, their target becomes clumsy and enfeebled."
-            }
-        },
-        "CuttingInsult": {
-            "Trigger": {
-                "Description": "<p>When a roller saves against the <strong>Cutting Insult</strong> spell, apply the frightened condition depending on their degree of success.</p>"
-            }
-        },
-        "Daze": {
-            "Trigger": {
-                "Description": "<p>When a roller critically fails their save against the <strong>Daze</strong> cantrip, they become stunned 1.</p>"
-            }
-        },
-        "Defend": {
-            "Trigger": {
-                "Description": "<p>When a combatant is created and they have an active <strong>Defend</strong> exploration activity, add an effect that raises their shield.</p><p>At the start of a combatant's first turn in a combat, remove that effect.</p>"
-            }
-        },
-        "Demoralize": {
-            "Trigger": {
-                "Description": "<p>When the roller of a skill check to <strong>Demoralize</strong> a target succeeds on their check, add the frightened 1 condition to the target (frightened 2 on a critical success). Regardless of the outcome, the target gains an immunity tracking effect. </p>"
-            }
-        },
-        "DiamondDust": {
-            "Item": {
-                "ToggleLabel": "Diamond Dust — Aura is active"
-            },
-            "Trigger": {
-                "Description": "When a combatant ends their turn—or enters—a <strong>Diamond Dust</strong> aura, roll its damage and add an effect to track the combatant's immunity to further instances of this trigger. For this trigger to work, the spellcaster must have <strong>Aux Effect: Diamond Dust</strong> applied to them, dragged from the <em>diamond dust</em> spell when it's sent to chat. You can find this auxiliary effect in the <strong>Auxiliary Items</strong> compendium under the Trigger Trove folder."
-            }
-        },
-        "Disarm": {
-            "Trigger": {
-                "Description": "<p>When a roller succeeds on their skill check to <strong>Disarm</strong> a target, add Disarm's success effect to that target. On a critical failure, the roller becomes off-guard until the start of their next turn.</p>"
-            }
-        },
-        "DistractingChatter": {
-            "Label": "Distracting Chatter",
-            "Trigger": {
-                "Description": "<p>When a roller saves against the <strong>Distracting Chatter</strong> spell, apply an effect that automates the off-guard condition and adds reminders for its flat check on auditory abilities.</p>",
-                "EffectAddendum": "<p>You must succeed at a @Check[flat|dc:5|showDC:all] to use auditory abilities or verbal spell components.</p>",
-                "EffectDescription": "<p>You bombard a target with distracting auditory illusions, surrounding them with a tumultuous cacophony of overlapping speech, whispers, screams, and muttering. The target is off-guard, takes a -2 status penalty to purely auditory Perception checks, and must succeed at a @Check[flat|dc:5] to use auditory abilities or verbal spell components. Similarly, a creature who attempts to affect the target with an auditory effect must succeed at a @Check[flat|dc:5] or the attempt fails. The duration depends on the target's Will save.</p>"
-            }
-        },
-        "DistractingShot": {
-            "Trigger": {
-                "Description": "<p>When the origin of an attack has <strong>Distracting Shot</strong> and critically hits their hunted prey, or if they hit their hunted prey twice in the same turn, that target becomes off-guard until the start of the origin's next turn.</p><p>If the origin has <strong>Greater Distracting Shot</strong>, this effect lasts until the end of their next turn instead. Additionally, their hunted prey becomes off-guard until the start of their next turn on a single hit.</p>"
-            }
-        },
-        "DivineImmolation": {
-            "Trigger": {
-                "Description": "<p>When a roller saves against the <strong>Divine Immolation</strong> spell, apply persistent fire damage depending on their degree of success. If they are immune to fire, the persistent damage is spirit instead.</p>"
-            }
-        },
-        "DyingAndWounded": {
-            "Trigger": {
-                "Description": "<p>When a Player Character takes damage and they are brought to 0 Hit Points, increase their <strong>dying</strong> condition by an amount equal to 1 (or 2 if it was the result of a critical hit or critically failed saving throw) + their wounded condition value, if any.</p><p>If the dying condition is removed from a Player Character, increase their <strong>wounded</strong> condition by 1.</p><p>Additionally, if a Player Character rolls a recovery check, increase or decrease their dying condition depending on their degree of success.</p>",
-                "AwaitConfirmation": {
-                    "Prompt": "You have been brought to 0 Hit Points. Was this the result of a critically failed saving throw or critical hit?",
-                    "Title": "Trigger Trove — Dying & Wounded Automation"
-                }
-            }
-        },
-        "Dominate": {
-            "Trigger": {
-                "Description": "<p>When a roller saves against the <strong>Dominate</strong> spell, apply the controlled or stunned condition depending on their degree of success.</p>",
-                "EffectDescription": {
-                    "CriticalFailure": "You are controlled. You can attempt a @Check[will|options:item:type:spell|traits:concentrate,incapacitation,manipulate,mental] save if you are given an order that is against your nature, such as killing your allies. On a success, the spell ends.",
-                    "Failure": "You are controlled, but you can attempt a @Check[will|options:item:type:spell|traits:concentrate,incapacitation,manipulate,mental] save at the end of each of your turns. On a success, the spell ends."
-                }
-            }
-        },
-        "DreadFlickering": {
-            "Trigger": {
-                "Description": "When a living combatant ends their turn within a <strong>Dread Flickering</strong> aura, send the ability to chat. If a roller fails their saving throw against it, add the frightened condition accordingly. If the roller critically succeeds, add an effect to track their immunity."
-            }
-        },
-        "ElegantBuckler": {
-            "Trigger": {
-                "Description": "When an attack critically misses against a target benefiting from Elegant Buckler, that target gains panache until the end of their next turn."
-            }
-        },
-        "EnduringMight": {
-            "Trigger": {
-                "Description": "When a target takes damage and they have <strong>Enduring Might</strong>'s resistance effect, remove that effect."
-            }
-        },
-        "EnergyShot": {
-            "Item": {
-                "ResourceLabel": "Energy Shots"
-            },
-            "Label": "Energy Shot",
-            "Trigger": {
-                "Description": "<p>When a combatant with <strong>Energy Shot</strong> is created, confirm whether the free action will be used. If so, add its auxiliary effect to the combatant, which will keep track of their shots used with a Special Resource.</p><p>If the origin of an attack rolled with a crossbow or firearm has the Energy Shot auxiliary effect, deplete the energy resource by 1. If the Energy Shot resource is at zero, remove the effect.</p>",
-                "Prompt": "Trigger Trove — Are you using Energy Shot in this combat?"
-            }
-        },
-        "Enfeeble": {
-            "Trigger": {
-                "Description": "When a roller saves against the <strong>Enfeeble</strong> spell, apply the enfeebled condition depending on their degree of success."
-            }
-        },
-        "EngulfAndSwallowWhole": {
-            "Trigger": {
-                "Description": "When a creature that is <strong>Engulfed</strong> or <strong>Swallowed Whole</strong> ends their turn, roll that ability's damage."
-            }
-        },
-        "EntanglingFlora": {
-            "Trigger": {
-                "Description": "When the region for <strong>Entangling Flora</strong> is placed, add a difficult terrain Region Behavior to it."
-            }
-        },
-        "ExtravagantParry": {
-            "Trigger": {
-                "Description": "When an attack misses against a target benefiting from <strong>Extravagant Parry</strong>, that target gains panache until the end of their next turn."
-            }
-        },
-        "Fear": {
-            "Trigger": {
-                "Description": "When a roller saves against the <strong>Fear</strong> spell, apply the frightened condition depending on their degree of success. On a critical failure, apply the fleeing condition for 1 round as well."
-            }
-        },
-        "Fearsome": {
-            "Trigger": {
-                "Description": "When the origin of an attack critically hits and their weapon has a <strong>fearsome</strong> or <strong>greater fearsome</strong> rune, add the frightened 1 or 2 condition to the target, respectively."
-            }
-        },
-        "FetidFumes": {
-            "Trigger": {
-                "Description": "<p>When a combatant starts their turn within—or enters—a <strong>Fetid Fumes</strong> aura, send that ability to chat. If the roller fails their saving throw against that ability, a condition effect for sickened 1 is added, and that roller can't trigger Fetid Fumes until this effect is removed.</p>"
-            }
-        },
-        "FinishingFollowThrough": {
-            "Trigger": {
-                "Description": "When a target is brought to 0 Hit Points by a finisher from an origin with <strong>Finishing Follow-Through</strong>, that origin gains panache."
-            }
-        },
-        "FiveHundredToads": {
-            "Trigger": {
-                "Description": "When the region for <strong>500 Toads</strong> is placed, add a difficult terrain Region Behavior to it."
-            }
-        },
-        "FlameBarrier": {
-            "Trigger": {
-                "Description": "When a target takes damage and they have <strong>Flame Barrier</strong>'s resistance effect, remove that effect."
-            }
-        },
-        "FlashyDodge": {
-            "Trigger": {
-                "Description": "When an attack misses against a target benefiting from <strong>Flashy Dodge</strong>, that target gains panache until the end of their next turn."
-            }
-        },
-        "Fortification": {
-            "Trigger": {
-                "CreateChatMessage": "<p><strong>Trigger Trove Note</strong> On a success, this critical hit becomes a normal hit thanks to your <em>fortification</em> rune!</p>",
-                "Description": "<p>When the target of a critically successful attack is wearing armor with a <strong>fortification</strong> or <strong>greater fortification</strong> rune etched onto it is critically hit, roll a flat check with the appropriate DC.</p><p>This is skipped if the character has the Perfect Protection feat, deferring to the system's automation instead.</p>"
-            }
-        },
-        "FrightfulPresence": {
-            "Trigger": {
-                "Description": "When a target enters a <strong>Frightful Presence</strong> aura, send that ability to chat, and add an effect tracking the target's immunity. If a roller fails their saving throw against that ability, add the frightened condition to them with the corresponding value."
-            }
-        },
-        "Frostbite": {
-            "Trigger": {
-                "Description": "When a roller critically fails their saving throw against <strong>Frostbite</strong>, add their effect for bludgeoning damage weakness."
-            }
-        },
-        "FuriousFinish": {
-            "Trigger": {
-                "Addendum": "You are fatigued until you rest for at least 10 minutes.",
-                "Description": "<p>When a target takes damage from an origin with the <strong>Furious Finish</strong> effect, as well as Rage's, remove both effects and add the fatigued condition.</p>"
-            }
-        },
-        "Generic": {
-            "Note": {
-                "Label": "Trigger Trove Note"
-            }
-        },
-        "Gibbering": {
-            "Trigger": {
-                "Description": "When a combatant begins their turn within a <strong>Gibbering</strong> aura, send the ability to chat. If a roller succeeds on their saving throw against this ability, add an effect to track their immunity. If they fail, add the confused condition until the start of their next turn."
-            }
-        },
-        "Grapple": {
-            "Trigger": {
-                "Description": "When a roller succeeds on their skill check to <strong>Grapple</strong> a target, that target becomes grabbed. On a critical success, the target becomes restrained instead."
-            }
-        },
-        "ImpressiveLanding": {
-            "Trigger": {
-                "Description": "<p>When the region for <strong>Impressive Landing</strong> is placed, add a difficult terrain Region Behavior to it and roll Impressive Landing's damage. When this damage is taken, add the off-guard condition until the start of the target's next turn.</p>"
-            }
-        },
-        "IncendiaryAura": {
-            "Trigger": {
-                "Description": "<p>When a target within an <strong>Incendiary Aura</strong> takes fire damage, add the corresponding amount of persistent fire damage to that target.</p><p><em>Note: This trigger can only detect fire damage when it's the primary damage type of a roll.</em></p>"
-            }
-        },
-        "IncredibleScout": {
-            "Trigger": {
-                "Description": "When a Scouting combatant with <strong>Incredible Scout</strong> is created, add an effect that upgrades Scout's bonus for all allies benefiting from it."
-            }
-        },
-        "InnerRadianceTorrent": {
-            "Trigger": {
-                "Description": "<p>When a roller saves against the <strong>Inner Radiance Torrent</strong> spell, on critical failure apply blinded for 1 round.</p>"
-            }
-        },
-        "IntenseHeat": {
-            "Trigger": {
-                "Description": "When a combatant enters or starts their turn within an <strong>Intense Heat</strong> aura, roll its damage and post a saving throw against it."
-            }
-        },
-        "Inviolable": {
-            "Trigger": {
-                "Description": "When the target of a successful attack has Inviolable, roll 3d6 spirit damage. If they are holy or unholy, the damage has the corresponding trait."
-            }
-        },
-        "KineticAura": {
-            "Trigger": {
-                "Description": "When a target takes damage and would be knocked out as a result, remove <strong>Kinetic Aura</strong> from them."
-            }
-        },
-        "MagicalFetters": {
-            "Trigger": {
-                "Description": "<p>When a roller saves against the <strong>Magical Fetters</strong> spell, apply an effect depending on their degree of success.</p>"
-            }
-        },
-        "MarshalStances": {
-            "Trigger": {
-                "Description": "When a roller makes a skill check for <strong>Devrin's Cunning Stance</strong>, <strong>Dread Marshal Stance</strong>, <strong>Inspiring Marshal Stance</strong>, or <strong>Strategist Stance</strong>, and they succeed or critically succeed, grant their respective stance effects. If they critically fail, grant a temporary cooldown effect instead."
-            }
-        },
-        "MartialPerformance": {
-            "Trigger": {
-                "Description": "<p>If a target takes damage from an enemy origin with <strong>Martial Performance</strong>, and the origin is under the effects of <em>courageous anthem</em>, <em>rallying anthem</em>, or <em>song of strength</em>; extend the duration of these effects by 1 round. Then, add an effect that prevents effects from benefiting more than once.</p><p>For this trigger to work correctly, the composition effect must have been dragged from the triggering character's chat card.</p>"
-            }
-        },
-        "MirrorImage": {
-            "Item": {
-                "ResourceLabel": "Mirror Images"
-            },
-            "Trigger": {
-                "Description": "When the target of an attack has <strong>Mirror Image</strong>'s effect, decrease the effect's badge value by 1 if the attack misses. If the attack hits, roll a die of the appropriate number of faces to determine if the attack hits its original target, or if it hits a mirror image, reducing the effect's badge value by 1.",
-                "Note": {
-                    "Hit": "<strong>Mirror Image</strong> The attack hits you! All your mirror images remain.",
-                    "Miss": "<strong>Mirror Image</strong> The attack misses you! One of your mirror images is destroyed."
-                }
-            }
-        },
-        "MountainResilience": {
-            "Trigger": {
-                "Description": "<p>When a target with <strong>Mountain Resilience</strong>'s effect takes bludgeoning, piercing, or slashing damage from an attack, reduce the duration of that effect by 1 minute.</p><p><em>Note: Due to a current limitation, this trigger will only work when the primary damage type is bludgeoning, piercing, or slashing. This covers most cases, but be aware that some instances of the previously mentioned damage types will be missed.</em></p>"
-            }
-        },
-        "MudPit": {
-            "Trigger": {
-                "Description": "When the region for <strong>Mud Pit</strong> is placed, add a difficult terrain Region Behavior to it."
-            }
-        },
-        "Nettleskin": {
-            "Trigger": {
-                "Description": "<p>When the target of a successful melee or unarmed attack has <strong>Nettleskin</strong>'s auxiliary effect and is adjacent to the origin of that attack, roll <em>nettleskin</em>'s damage. When that damage is applied, reduce the duration of nettleskin by 1 round.</p><p>For this trigger to work, <strong>Aux Effect: Nettleskin</strong> must be dragged onto the origin when they cast the spell. Furthermore, it must be dragged from the spell's card in chat for its damage to scale correctly. You can find this auxiliary effect in the <strong>Auxiliary Items</strong> compendium under the Trigger Trove folder.</p>"
-            }
-        },
-        "OneShotOneKill": {
-            "Label": "One Shot, One Kill",
-            "Trigger": {
-                "Description": "When a combatant with <strong>One Shot, One Kill</strong> is created, confirm whether they will use it as a free action. If so, add an effect that enables its additional precision damage until their first successful Strike deals damage, and then remove the effect.",
-                "Prompt": "Trigger Trove — Are you using One Shot, One Kill in this combat?"
-            }
-        },
-        "Overdrive": {
-            "Trigger": {
-                "Description": "If a Crafting check to <strong>Overdrive</strong> is rolled, add the appropriate effect to the roller based on their degree of success. On a critical failure, add an effect to keep track of their malfunctioning gadgets, rolling 1d4 to determine its duration."
-            }
-        },
-        "Panache": {
-            "Trigger": {
-                "Description": "<p>When the roller of a check has the <strong>Panache</strong> class feature and is using a bravado action, add panache to them as appropriate for their degree of success.</p><p>When the origin of an attack uses a finisher, remove panache from them once the attack's damage, if any, is resolved.</p>"
-            }
-        },
-        "PhaseFamiliar": {
-            "Trigger": {
-                "Description": "When a target takes damage and they have <strong>Phase Familiar</strong>'s resistance effect, remove that effect."
-            }
-        },
-        "Rage": {
-            "Trigger": {
-                "Description": "When a target that is <strong>Raging</strong> takes damage and is knocked out as a result, remove the Rage effect, and grant its temporary Hit Points immunity effect. If the target has <strong>Vitalizing Rage</strong>, create an immunity effect that lasts until the end of their next turn instead."
-            }
-        },
-        "RapidRetreat": {
-            "Trigger": {
-                "Description": "When a target takes damage and they have <strong>Rapid Retreat</strong>'s resistance effect, remove that effect."
-            }
-        },
-        "RavelOfThorns": {
-            "Trigger": {
-                "Description": "When a combatant starts its turn inside a kinetic aura whose source is in <strong>Ravel of Thorns</strong> stance, add an effect to that combatant to apply the corresponding speed penalty. Remove this effect when they leave the kinetic aura."
-            }
-        },
-        "RejuvenatingTouch": {
-            "Trigger": {
-                "Description": "When the target of a <em>lay on hands</em> spell is healed by the spell and its origin has the <strong>Rejuvenating Touch</strong> feat, that target receives its temporary Hit Points."
-            }
-        },
-        "ReplenishmentOfWar": {
-            "Trigger": {
-                "Description": "When a target takes damage from an origin with Replenishment of War, and that damage comes from a Strike with their deity's favored weapon, grant Replenishment of War's temporary Hit Points to the origin, as appropriate for the outcome of the Strike. If the damage origin has Shared Replenishment, this trigger will have no effect."
-            }
-        },
-        "RevitalizingFinisher": {
-            "Trigger": {
-                "Description": "When the origin of a successful attack is using <strong>Revitalizing Finisher</strong>, the origin creature and all allies within 30 feet of it gain temporary Hit Points equal to half the origin's level. On a failure, only the origin gains this benefit."
-            }
-        },
-        "Rooting": {
-            "Item": {
-                "DescriptionOverride": {
-                    "Basic": "The attack target becomes immobilized ([[/act escape dc=23]]) and clumsy 1 for as long as the immobilization lasts.",
-                    "Greater": "The attack target becomes immobilized ([[/act escape dc=28]]) and clumsy 1 for as long as the immobilization lasts.",
-                    "Major": "The attack target becomes immobilized ([[/act escape dc=34]]) and clumsy 1 for as long as the immobilization lasts.",
-                    "True": "The attack target becomes immobilized ([[/act escape dc=41]]) and clumsy 1 for as long as the immobilization lasts."
-                }
-            },
-            "Trigger": {
-                "Description": "When the origin of a critically successful attack uses a weapon with a <strong>rooting</strong> rune, add the clumsy and immobilized conditions to the target."
-            }
-        },
-        "SafeElements": {
-            "Addendum": "A target with <strong>Aux Effect: Safe Elements</strong> dragged onto them <strong>from the kineticist's sheet</strong> is unaffected by this trigger. You can find this auxiliary effect in the <strong>Auxiliary Items</strong> compendium under the Trigger Trove folder."
-        },
-        "SawtoothTerrain": {
-            "Trigger": {
-                "Description": "<p>When a roller saves against the <strong>Sawtooth Terrain</strong> spell, add persistent bleed damage and an effect containing a Speed penalty depending on their degree of success. If the roller receives magical healing while having this effect, remove the effect. If a template originating from Sawtooth Terrain is placed, add a difficult terrain behavior to it.</p>",
-                "EffectDescription": {
-                    "CriticalFailure": "You take a –15-foot circumstance penalty to your Speed until you receive magical healing or benefit from a successful @Check[medicine] check against the origin's spell DC to Administer First Aid.",
-                    "Failure": "You take a –10-foot circumstance penalty to your Speed until you receive magical healing or benefit from a successful @Check[medicine] check against the origin's spell DC to Administer First Aid."
-                }
-            }
-        },
-        "ScarsOfSteel": {
-            "Label": "Scars of Steel",
-            "Trigger": {
-                "AwaitConfirmation": {
-                    "Prompt": "Trigger Trove — An opponent critically hits you with an attack that deals physical damage. Will you use Scars of Steel?"
-                },
-                "Description": "<p>When a target that is Raging is critically hit by an attack that deals physical damage, and that target has Scars of Steel with available uses left, confirm whether they will use the ability. If so, add an auxiliary effect that enables its resistance, and deplete one use from Scars of Steel.</p><p>Once damage is taken, remove the previously added effect.</p>"
-            }
-        },
-        "Scout": {
-            "Trigger": {
-                "Description": "When a combatant that has an active <strong>Scout</strong> activity is created, add its effect to all allied tokens in the scene."
-            }
-        },
-        "ScoutDedication": {
-            "Trigger": {
-                "Description": "When a Scouting combatant with <strong>Scout Dedication</strong> is created, add an effect that upgrades Scout's bonus for themself and all allies benefiting from it."
-            }
-        },
-        "ScoutsWarning": {
-            "Label": "Scout's Warning",
-            "Trigger": {
-                "AwaitConfirmation": {
-                    "Prompt": "Trigger Trove — Will you use Scout's Warning? You must roll a Perception, Stealth, or Survival check for initiative."
-                },
-                "Description": "When a combatant with <strong>Scout's Warning</strong> is created, confirm whether they will use it as a free action. If so, add Scout's Warning effect to the combatant and their allies."
-            }
-        },
-        "SelfishShield": {
-            "Trigger": {
-                "Description": "<p>When a target with <strong>Selfish Shield</strong>'s effect takes damage, remove that effect and add an effect to the target for Selfish's Shield additional damage, reminding the user to target the origin of the damage. If the damage target has <strong>Ongoing Selfishness</strong>, add its effect as well.</p>",
-                "Note": "<p><strong>Trigger Trove Note</strong> An effect for Selfish Shield's extra damage has been added! Target the source of the damage to activate it.</p>"
-            }
-        },
-        "SharedStratagem": {
-            "Trigger": {
-                "ChatMessage": {
-                    "PF2E": "<p><strong>Trigger Trove Note</strong> Drag this effect onto the designated ally for Shared Stratagem!</p><p>@UUID[Compendium.pf2e-trigger-trove.auxiliary-items.Item.u6Czd41XiuFK70J3]{Aux Effect: Shared Stratagem}</p>",
-                    "SF2E": "<p><strong>Trigger Trove Note</strong> Drag this effect onto the designated ally for Shared Stratagem!</p><p>@UUID[Compendium.pf2e-trigger-trove.sf2e-auxiliary-items.Item.u6Czd41XiuFK70J3]{Aux Effect: Shared Stratagem}</p>"
-                },
-                "Description": "<p>When an attacker with Shared Stratagem successfully attacks their Devise a Stratagem target, and that target isn't being affected by Shared Stratagem already, add a trigger effect marking said target as such, and post a chat message containing an auxiliary effect an ally may drag onto themselves to benefit from Shared Stratagem.</p><p>When an attacker holding the aforementioned auxiliary effect targets the investigator's marked target, that target will be off-guard to that attack.</p><p><em>Note: This trigger may behave incorrectly if you have more than one character using Shared Stratagem to help each other.</em></p>"
-            }
-        },
-        "ShieldsOfTheSpirit": {
-            "Trigger": {
-                "Description": "When the target of an attack has <strong>Shields of the Spirit's</strong> effect, and is inside a champion's aura or benefiting from the <strong>Security</strong> feat, roll <em>shields of the spirit</em>'s damage against the origin of the attack."
-            }
-        },
-        "ShockAndAwe": {
-            "Trigger": {
-                "Description": "<p>When a roller saves against the <strong>Shock and Awe</strong> spell, add the frightened and stunned conditions depending on their degree of success.</p>"
-            }
-        },
-        "Slow": {
-            "Trigger": {
-                "Description": "When a roller saves against the <strong>Slow</strong> spell, apply the slowed condition depending on their degree of success."
-            }
-        },
-        "Smoke": {
-            "Trigger": {
-                "Description": "<p>When a combatant starts their turn withing a <strong>Smoke</strong> aura, send that ability to chat. If a roller fails on their saving throw, increase their Sickened condition to 2. The roller is temporarily immune to the Smoke regardless of the outcome of the roll, add an effect tracking this immunity.</p>"
-            }
-        },
-        "SpikeSkin": {
-            "Trigger": {
-                "Description": "<p>When a target under the effects of <strong>Spike Skin</strong> takes damage from an unarmed attack or a non-reach melee weapon, roll Spike Skin's damage. Additionally, if the damage the target takes is physical, regardless of its source, the duration of Spike Skin is reduced by 1 minute.</p>"
-            }
-        },
-        "SpiritLink": {
-            "Trigger": {
-                "Description": "<p>When a combatant starts their turn and they have a <strong>Spirit Link</strong> auxiliary effect that originated from themselves, check the scene for tokens with an identical effect. If there is such a token, check if they're not at their Hit Point maximum and if so, send a damage-healing roll to chat for both parties of spirit link to apply to themselves.</p><p>For this trigger to work properly, you must add <strong>Aux Effect: Spirit Link</strong> to the spell's description and drag it <strong>from the spell's chat card</strong> to both the spellcaster and the target.  You can find this auxiliary effect in the <strong>Auxiliary Items</strong> compendium under the Trigger Trove folder.</p>",
-                "Note": "<p>At the start of each of your turns, if the target is below maximum Hit Points, it regains 2 Hit Points per spell rank of <em>spirit link</em> (or the difference between its current and maximum Hit Points, if that's lower). You lose as many Hit Points as the target regained.</p>"
-            }
-        },
-        "StaggeringFire": {
-            "Trigger": {
-                "Description": "When the origin of an attack is using <strong>Staggering Fire</strong>, and their attack hits or critically using a weapon in the bow group, the target receives the appropriate speed penalty."
-            }
-        },
-        "SteamKnight": {
-            "Trigger": {
-                "Description": "If a combatant in <strong>Steam Knight</strong> stance starts their turn and there's at least one enemy in their kinetic aura, roll Steam Knight's damage, including a reminder note of the free action they can use to deal this damage, and the necessary saving throw.",
-                "Note": "<strong>Steam Knight</strong> <span class=\"action-glyph\">F</span> At the start of each of your turns, you can emit steam as a free action. It deals fire damage to each creature in your kinetic aura with a @Check[reflex|against:kineticist|basic|options:area-effect,forced-movement] save. A creature that fails is also pushed 5 feet."
-            }
-        },
-        "Stench": {
-            "Trigger": {
-                "Description": "<p>When a combatant starts their turn within—or enters—a <strong>Stench</strong> aura, send that ability to chat. If a roller succeeds on their saving, add an effect tracking their immunity. If the roller fails their saving throw, add the sickened and slowed condition as appropriate for the outcome of their save.</p>"
-            }
-        },
-        "SuppressingFire": {
-            "Trigger": {
-                "Description": "<p>When a roller fails their saving throw against an origin using an area weapon with the <strong>Suppressing Fire</strong> class feature, the roller becomes suppressed until the start of the origin's next turn.</p>"
-            }
-        },
-        "SwaggeringInitiative": {
-            "Label": "Swaggering Initiative",
-            "Trigger": {
-                "AwaitConfirmation": {
-                    "Prompt": "Trigger Trove — Will you use Swaggering Initiative in this encounter?"
-                },
-                "Description": "When a combatant with the <strong>Swaggering Initiative</strong> feat is created, confirm whether they will use that feat. If so, toggle their bonus to initiative on. If that combatant is the first one to act, they gain panache."
-            }
-        },
-        "SwordAndPistol": {
-            "Trigger": {
-                "Description": "<p>When the origin of a successful ranged Strike with a one-handed firearm or crossbow has the <strong>Sword and Pistol</strong> feat, and the target is an enemy within their reach—as indicated by the Sword and Pistol toggle in their sheet—add an auxiliary effect that makes the target off-guard to the origin's next melee attack with a one-handed melee weapon. Add a trigger effect to the target of this attack for tracking purposes as well.</p><p>When a target that was off-guard as a result of Sword and Pistol takes damage from a character with that feat using a one-handed melee weapon, remove the auxiliary effect on the attacker, and the trigger effect on the target.</p>"
-            }
-        },
-        "Taunt": {
-            "Trigger": {
-                "Description": "When the origin of an attack is <strong>Taunted</strong>, and the target is not the origin of that Taunt, the origin becomes off-guard until the start of its next turn."
-            }
-        },
-        "ThermalNimbus": {
-            "Trigger": {
-                "Description": "When a combatant starts their turn within, or enters, a kinetic aura whose source is in <strong>Thermal Nimbus</strong> stance, roll the corresponding damage."
-            }
-        },
-        "TreatWounds": {
-            "Trigger": {
-                "Description": "When a target receives healing from <strong>Treat Wounds</strong>, remove the wounded condition and, if the character doesn't have Continual Recovery, add its immunity tracking effect."
-            }
-        },
-        "TrickstersMirrors": {
-            "Item": {
-                "Note": "A damaging effect that affects all targets within your space destroys all of the mirrors.",
-                "ResourceLabel": "Trickster's Mirrors"
-            },
-            "Trigger": {
-                "Description": "<p>If the attacked creature has <strong>Aux Effect: Trickster's Mirrors</strong>, automatically reduce the <strong>Trickster's Mirrors</strong> resource depending on both the outcome of the attack and a randomly generated number, as described by the spell. If the attacker is within 5 feet, roll damage when a mirror is destroyed.</p><p>For this trigger to work, <strong>Aux Effect: Trickster's Mirrors</strong> must be dragged onto the origin when they cast the spell. You can find this auxiliary effect in the <strong>Auxiliary Items</strong> compendium under the Trigger Trove folder.",
-                "Note": {
-                    "Hit": "<strong>Trickster's Mirror</strong> The attack hits you! All your mirrors remain.",
-                    "Miss": "<p>The attack misses you! One of your mirrors is destroyed. If the attacker was within 5 feet, they must succeed at a @Check[will|basic] save or take mental damage as they believe themselves cut by a shower of glass shards from the breaking mirror.</p>",
-                    "MissNoDamage": "<p><strong>Trickster's Mirror</strong> The attack misses you! One of your mirrors is destroyed.</p>"
-                }
-            }
-        },
-        "Trip": {
-            "Trigger": {
-                "Description": "When a roller succeeds on their skill check to <strong>Trip</strong> a target, add the prone condition to the target. Additionally, roll Trip's damage on a critical success. On a critical failure, add the trip condition to the roller instead."
-            }
-        },
-        "UnbalancingBlow": {
-            "Trigger": {
-                "Description": "When a target takes damage from a critical hit from an origin with <strong>Unbalancing Blow</strong>, that target becomes off-guard against the origin's attacks until the end of their next turn."
-            }
-        },
-        "UnbalancingFinisher": {
-            "Trigger": {
-                "Description": "When a target takes damage from an origin using <strong>Unbalancing Finisher</strong>, that target is off-guard until the end of the origin's next turn."
-            }
-        },
-        "UnleashPsyche": {
-            "Trigger": {
-                "Description": "When Unleash Psyche's effect is removed, add the stupefied condition to the parent for 2 rounds, and add an immunity effect against Unleash Psyche's effect for the same duration.",
-                "ImmunityLabel": "Unleash Psyche"
-            }
-        },
-        "VampiricFeast": {
-            "Trigger": {
-                "Description": "<p>When a roller saves against the <strong>Vampiric Feast</strong> spell, apply an effect to the target to track their hp.<br>When damage is taken from the <strong>Vampiric Feast</strong> spell, then create an effect that gives the caster temp hp equal to the difference between the target current hp and the hp store in the temp effect, finally delete the temp effect.</p>"
-            }
-        },
-        "VibrantThorns": {
-            "Item": {
-                "Addendum": "Anytime you cast a vitality spell, the thorns' damage increases to d6s of piercing damage until the start of your next turn."
-            },
-            "Trigger": {
-                "Description": "<p>When the target of a successful melee attack has Vibrant Thorns' auxiliary effect and is adjacent to the origin of the attack, or if the attack was an unarmed attack, roll <em>vibrant thorns'</em> damage. If the target has <strong>Aux Effect: Vibrant Thorns (Increase Damage)</strong>, increase that damage accordingly.</p><p>For this trigger to work, <strong>Aux Effect: Vibrant Thorns</strong> must be dragged onto the origin when they cast the spell. You can find this auxiliary effect in the <strong>Auxiliary Items</strong> compendium under the Trigger Trove folder.</p>"
-            }
-        },
-        "VitalityNetwork": {
-            "Macro": {
-                "DepletedVitalityNetwork": "{actor} has no Hit Points left in their vitality network.",
-                "Hint": "The number of Hit Points you will transfer",
-                "Label": "Transfer Vitality",
-                "NoVitalityNetwork": "{actor} has no vitality network",
-                "Select": "Select a token with a vitality network",
-                "Target": "Target a token to use PF2e Toolbelt's Target Helper feature"
-            },
-            "Trigger": {
-                "Description": "<p>When a combatant with <strong>Transfer Vitality</strong> starts their turn, their <strong>vitality network</strong> regains Hit Points.</p><p>When a token with vitality network is selected and you run the Vitality Network macro, you can select a number of Hit Points to roll as healing and reduce from your vitality network.</p>"
-            }
-        },
-        "Vitalizing": {
-            "Trigger": {
-                "Description": "When the origin of a critically successful attack uses a weapon with a <strong>vitalizing</strong> rune, add the enfeebled 1 condition to the target. Additionally, add the stupefied 1 condition if the rune was a <strong>greater vitalizing</strong> rune."
-            }
-        },
-        "WarningStripes": {
-            "Trigger": {
-                "Description": "<p>If the target of a successful melee unarmed attack has <strong>Warning Stripes</strong>'s auxiliary effect, roll the spell's damage.</p><p>For this trigger to work, <strong>Aux Effect: Warning Stripes</strong> must be dragged onto the origin when they cast the spell. Furthermore, it must be dragged from the spell's card in chat for its damage to scale correctly. You can find this auxiliary effect in the <strong>Auxiliary Items</strong> compendium under the Trigger Trove folder.</p>"
-            }
-        },
-        "WarpingPull": {
-            "Trigger": {
-                "Description": "When a target takes damage and they have <strong>Warping Pull</strong>'s resistance effect, remove that effect."
-            }
-        },
-        "WaveOfDespair": {
-            "Trigger": {
-                "Description": "<p>When a roller saves against the <strong>Wave of Despair</strong> spell, apply a tracking effect depending on their degree of success. On a critical failure, instead apply the slowed condition for 1 minute. At the start of an affected combatant's turn, they attempt a Will save; on a failure, they become slowed 1 for that turn.</p>"
-            }
-        },
-        "WhispersOfTheVoid": {
-            "Trigger": {
-                "Description": "<p>When a roller saves against the <strong>Whispers of the Void</strong> spell, they take persistent void damage, and they become drained and doomed depending on their degree of success.</p>"
-            }
-        },
-        "WingsOfFlame": {
-            "Trigger": {
-                "Description": "<p>When a combatant ends their turn within a <strong>Wings of Flame</strong> aura, send that ability to chat, roll the damage.</p>"
-            }
+  "TRIGGERTROVE": {
+    "AcidSplash": {
+      "Trigger": {
+        "Description": "When an attack with <strong>Acid Splash</strong> critically succeeds, add its corresponding persistent acid damage to the target."
+      }
+    },
+    "ActionHero": {
+      "Trigger": {
+        "Description": "<p>If the origin of a successful Strike with an automatic weapon has the <strong>Action Hero</strong> fighting style, the target becomes suppressed until the start of the origin's next turn.</p>"
+      }
+    },
+    "AirAuraJunction": {
+      "Trigger": {
+        "Description": "<p>When a combatant starts their turn within the kinetic aura of an <strong>air gate</strong> kineticist with its <strong>aura junction</strong>, grant that character the corresponding bonus to their Speeds via effect until the end of their turn.</p><p>This benefit overlaps with the system's effect when inside the aura, but persists once the character leaves the aura until the end of their turn.</p>"
+      }
+    },
+    "AldoriSwordlord": {
+      "Trigger": {
+        "Description": "When the origin of an attack with an <em>aldori dueling sword</em> has the <strong>Aldori Swordlord</strong> feat, add its corresponding effect to them, according to their degree of success."
+      }
+    },
+    "AmuletsAbeyance": {
+      "Trigger": {
+        "Description": "When a target takes damage and they have <strong>Amulet's Abeyance</strong>'s resistance effect, remove that effect."
+      }
+    },
+    "AttackedFromWithin": {
+      "Trigger": {
+        "Description": "<p>When a roller saves against <strong>Attacked From Within</strong>, increase their frightened condition depending on their degree of success. If they critically fail, add the off-guard condition for 1 round.</p>"
+      }
+    },
+    "AuraOfCourage": {
+      "Trigger": {
+        "Description": "When a combatant with <strong>Aura of Courage</strong> ends their turn, all allies within their aura reduce their frightened condition by 1."
+      }
+    },
+    "BlindingAura": {
+      "Trigger": {
+        "Description": "<p>When a combatant starts their turn within a Shining Child's <strong>Blinding Aura</strong>, send that ability to chat. When a roller fails their saving throw against Blinding Aura, add the blinded condition according to their degree of success. On a critical success, the roller does not trigger further Blinding Aura triggers.</p>"
+      }
+    },
+    "BonMot": {
+      "Trigger": {
+        "Description": "When the roller of a Diplomacy check is using the <strong>Bon Mot</strong> action, apply Bon Mot's effect to the target or roller, depending on the outcome. If the roller succeeds on their Bon Mot, remove the effect resulting from a critically failed Bon Mot, if there is one."
+      }
+    },
+    "BoostEidolon": {
+      "Trigger": {
+        "Description": "When <strong>Boost Eidolon</strong> is casted, checks if target has Reinforce Eidolon and removes it, then adds Boost Eidolon to target."
+      }
+    },
+    "BrutalBeating": {
+      "Trigger": {
+        "Description": "When a target takes damage from an origin with the <strong>Brutal Beating</strong> feat, that target becomes frightened 1."
+      }
+    },
+    "CastIntoTime": {
+      "Trigger": {
+        "Description": "<p>When a roller saves against the <strong>Cast Into Time</strong> spell, apply the sickened condition depending on their degree of success.</p>"
+      }
+    },
+    "CausticBlast": {
+      "Trigger": {
+        "Description": "<p>When a roller critically fails their save against <strong>Caustic Blast</strong>, they take persistent acid damage.</p>"
+      }
+    },
+    "ChampionsResistance": {
+      "Trigger": {
+        "Description": "<p>When a target takes damage and they have a <strong>Champion's Resistance</strong> effect, remove that effect.</p><p>If the effect origin has <strong>Glimpse of Redemption</strong>, the damage origin also becomes enfeebled until the end of its next turn. If they have the <strong>Weight of Guilt</strong> feat, the champion can choose whether to apply the stupefied or enfeebled conditions.</p>",
+        "Redemption": {
+          "AwaitConfirmation": {
+            "Prompt": "Will you use Weight of Guilt to make the enemy stupefied rather than enfeebled?",
+            "Title": "Weight of Guilt"
+          }
         }
+      }
+    },
+    "CommandingPresence": {
+      "Trigger": {
+        "Description": "<p>When a target enters a <strong>Commanding Presence</strong> aura, send that ability to chat, and add an effect tracking the target's immunity. If a roller fails their saving throw against that ability, add the frightened condition to them with the corresponding value.</p><"
+      }
+    },
+    "CriticalSpecialization": {
+      "Trigger": {
+        "Description": {
+          "Bow": "When critical damage is dealt with a weapon in the bow group and the origin has its critical specialization effect, add the immobilized condition to the target.",
+          "Spear": "When critical damage is dealt with a weapon in the spear group and the origin has its critical specialization effect, add the clumsy condition to the target until the start of the origin's turn. If the weapon has the grievous rune, the effect lasts for an additional round.",
+          "Sword": "When critical damage is dealt with a weapon in the sword group and the origin has its critical specialization effect, add the off-guard condition to the target until the start of the origin's turn. If the weapon has the grievous rune, the effect lasts until the end of the origin's turn instead."
+        }
+      }
+    },
+    "CrownedInTempestsFury": {
+      "Trigger": {
+        "Description": "When a target enters a kinetic aura, or starts their turn within one, and the source of that aura is in <strong>Crowned in Tempest's Fury</strong> stance, roll 2d12 electricity damage against that target."
+      }
+    },
+    "Crushing": {
+      "Trigger": {
+        "Description": "When the origin of an attack critically hits and their weapon has a <strong>crushing</strong> or <strong>greater crushing</strong> rune, their target becomes clumsy and enfeebled."
+      }
+    },
+    "CuttingInsult": {
+      "Trigger": {
+        "Description": "<p>When a roller saves against the <strong>Cutting Insult</strong> spell, apply the frightened condition depending on their degree of success.</p>"
+      }
+    },
+    "Daze": {
+      "Trigger": {
+        "Description": "<p>When a roller critically fails their save against the <strong>Daze</strong> cantrip, they become stunned 1.</p>"
+      }
+    },
+    "Defend": {
+      "Trigger": {
+        "Description": "<p>When a combatant is created and they have an active <strong>Defend</strong> exploration activity, add an effect that raises their shield.</p><p>At the start of a combatant's first turn in a combat, remove that effect.</p>"
+      }
+    },
+    "Demoralize": {
+      "Trigger": {
+        "Description": "<p>When the roller of a skill check to <strong>Demoralize</strong> a target succeeds on their check, add the frightened 1 condition to the target (frightened 2 on a critical success). Regardless of the outcome, the target gains an immunity tracking effect. </p>"
+      }
+    },
+    "DiamondDust": {
+      "Item": {
+        "ToggleLabel": "Diamond Dust — Aura is active"
+      },
+      "Trigger": {
+        "Description": "When a combatant ends their turn—or enters—a <strong>Diamond Dust</strong> aura, roll its damage and add an effect to track the combatant's immunity to further instances of this trigger. For this trigger to work, the spellcaster must have <strong>Aux Effect: Diamond Dust</strong> applied to them, dragged from the <em>diamond dust</em> spell when it's sent to chat. You can find this auxiliary effect in the <strong>Auxiliary Items</strong> compendium under the Trigger Trove folder."
+      }
+    },
+    "Disarm": {
+      "Trigger": {
+        "Description": "<p>When a roller succeeds on their skill check to <strong>Disarm</strong> a target, add Disarm's success effect to that target. On a critical failure, the roller becomes off-guard until the start of their next turn.</p>"
+      }
+    },
+    "DistractingChatter": {
+      "Label": "Distracting Chatter",
+      "Trigger": {
+        "Description": "<p>When a roller saves against the <strong>Distracting Chatter</strong> spell, apply an effect that automates the off-guard condition and adds reminders for its flat check on auditory abilities.</p>",
+        "EffectAddendum": "<p>You must succeed at a @Check[flat|dc:5|showDC:all] to use auditory abilities or verbal spell components.</p>",
+        "EffectDescription": "<p>You bombard a target with distracting auditory illusions, surrounding them with a tumultuous cacophony of overlapping speech, whispers, screams, and muttering. The target is off-guard, takes a -2 status penalty to purely auditory Perception checks, and must succeed at a @Check[flat|dc:5] to use auditory abilities or verbal spell components. Similarly, a creature who attempts to affect the target with an auditory effect must succeed at a @Check[flat|dc:5] or the attempt fails. The duration depends on the target's Will save.</p>"
+      }
+    },
+    "DistractingShot": {
+      "Trigger": {
+        "Description": "<p>When the origin of an attack has <strong>Distracting Shot</strong> and critically hits their hunted prey, or if they hit their hunted prey twice in the same turn, that target becomes off-guard until the start of the origin's next turn.</p><p>If the origin has <strong>Greater Distracting Shot</strong>, this effect lasts until the end of their next turn instead. Additionally, their hunted prey becomes off-guard until the start of their next turn on a single hit.</p>"
+      }
+    },
+    "DivineImmolation": {
+      "Trigger": {
+        "Description": "<p>When a roller saves against the <strong>Divine Immolation</strong> spell, apply persistent fire damage depending on their degree of success. If they are immune to fire, the persistent damage is spirit instead.</p>"
+      }
+    },
+    "DyingAndWounded": {
+      "Trigger": {
+        "Description": "<p>When a Player Character takes damage and they are brought to 0 Hit Points, increase their <strong>dying</strong> condition by an amount equal to 1 (or 2 if it was the result of a critical hit or critically failed saving throw) + their wounded condition value, if any.</p><p>If the dying condition is removed from a Player Character, increase their <strong>wounded</strong> condition by 1.</p><p>Additionally, if a Player Character rolls a recovery check, increase or decrease their dying condition depending on their degree of success.</p>",
+        "AwaitConfirmation": {
+          "Prompt": "You have been brought to 0 Hit Points. Was this the result of a critically failed saving throw or critical hit?",
+          "Title": "Trigger Trove — Dying & Wounded Automation"
+        }
+      }
+    },
+    "Dominate": {
+      "Trigger": {
+        "Description": "<p>When a roller saves against the <strong>Dominate</strong> spell, apply the controlled or stunned condition depending on their degree of success.</p>",
+        "EffectDescription": {
+          "CriticalFailure": "You are controlled. You can attempt a @Check[will|options:item:type:spell|traits:concentrate,incapacitation,manipulate,mental] save if you are given an order that is against your nature, such as killing your allies. On a success, the spell ends.",
+          "Failure": "You are controlled, but you can attempt a @Check[will|options:item:type:spell|traits:concentrate,incapacitation,manipulate,mental] save at the end of each of your turns. On a success, the spell ends."
+        }
+      }
+    },
+    "DreadFlickering": {
+      "Trigger": {
+        "Description": "When a living combatant ends their turn within a <strong>Dread Flickering</strong> aura, send the ability to chat. If a roller fails their saving throw against it, add the frightened condition accordingly. If the roller critically succeeds, add an effect to track their immunity."
+      }
+    },
+    "ElegantBuckler": {
+      "Trigger": {
+        "Description": "When an attack critically misses against a target benefiting from Elegant Buckler, that target gains panache until the end of their next turn."
+      }
+    },
+    "EnduringMight": {
+      "Trigger": {
+        "Description": "When a target takes damage and they have <strong>Enduring Might</strong>'s resistance effect, remove that effect."
+      }
+    },
+    "EnergyShot": {
+      "Item": {
+        "ResourceLabel": "Energy Shots"
+      },
+      "Label": "Energy Shot",
+      "Trigger": {
+        "Description": "<p>When a combatant with <strong>Energy Shot</strong> is created, confirm whether the free action will be used. If so, add its auxiliary effect to the combatant, which will keep track of their shots used with a Special Resource.</p><p>If the origin of an attack rolled with a crossbow or firearm has the Energy Shot auxiliary effect, deplete the energy resource by 1. If the Energy Shot resource is at zero, remove the effect.</p>",
+        "Prompt": "Trigger Trove — Are you using Energy Shot in this combat?"
+      }
+    },
+    "Enfeeble": {
+      "Trigger": {
+        "Description": "When a roller saves against the <strong>Enfeeble</strong> spell, apply the enfeebled condition depending on their degree of success."
+      }
+    },
+    "EngulfAndSwallowWhole": {
+      "Trigger": {
+        "Description": "When a creature that is <strong>Engulfed</strong> or <strong>Swallowed Whole</strong> ends their turn, roll that ability's damage."
+      }
+    },
+    "EntanglingFlora": {
+      "Trigger": {
+        "Description": "When the region for <strong>Entangling Flora</strong> is placed, add a difficult terrain Region Behavior to it."
+      }
+    },
+    "ExtravagantParry": {
+      "Trigger": {
+        "Description": "When an attack misses against a target benefiting from <strong>Extravagant Parry</strong>, that target gains panache until the end of their next turn."
+      }
+    },
+    "Fear": {
+      "Trigger": {
+        "Description": "When a roller saves against the <strong>Fear</strong> spell, apply the frightened condition depending on their degree of success. On a critical failure, apply the fleeing condition for 1 round as well."
+      }
+    },
+    "Fearsome": {
+      "Trigger": {
+        "Description": "When the origin of an attack critically hits and their weapon has a <strong>fearsome</strong> or <strong>greater fearsome</strong> rune, add the frightened 1 or 2 condition to the target, respectively."
+      }
+    },
+    "FetidFumes": {
+      "Trigger": {
+        "Description": "<p>When a combatant starts their turn within—or enters—a <strong>Fetid Fumes</strong> aura, send that ability to chat. If the roller fails their saving throw against that ability, a condition effect for sickened 1 is added, and that roller can't trigger Fetid Fumes until this effect is removed.</p>"
+      }
+    },
+    "FinishingFollowThrough": {
+      "Trigger": {
+        "Description": "When a target is brought to 0 Hit Points by a finisher from an origin with <strong>Finishing Follow-Through</strong>, that origin gains panache."
+      }
+    },
+    "FiveHundredToads": {
+      "Trigger": {
+        "Description": "When the region for <strong>500 Toads</strong> is placed, add a difficult terrain Region Behavior to it."
+      }
+    },
+    "FlameBarrier": {
+      "Trigger": {
+        "Description": "When a target takes damage and they have <strong>Flame Barrier</strong>'s resistance effect, remove that effect."
+      }
+    },
+    "FlashyDodge": {
+      "Trigger": {
+        "Description": "When an attack misses against a target benefiting from <strong>Flashy Dodge</strong>, that target gains panache until the end of their next turn."
+      }
+    },
+    "Fortification": {
+      "Trigger": {
+        "CreateChatMessage": "<p><strong>Trigger Trove Note</strong> On a success, this critical hit becomes a normal hit thanks to your <em>fortification</em> rune!</p>",
+        "Description": "<p>When the target of a critically successful attack is wearing armor with a <strong>fortification</strong> or <strong>greater fortification</strong> rune etched onto it is critically hit, roll a flat check with the appropriate DC.</p><p>This is skipped if the character has the Perfect Protection feat, deferring to the system's automation instead.</p>"
+      }
+    },
+    "FrightfulPresence": {
+      "Trigger": {
+        "Description": "When a target enters a <strong>Frightful Presence</strong> aura, send that ability to chat, and add an effect tracking the target's immunity. If a roller fails their saving throw against that ability, add the frightened condition to them with the corresponding value."
+      }
+    },
+    "Frostbite": {
+      "Trigger": {
+        "Description": "When a roller critically fails their saving throw against <strong>Frostbite</strong>, add their effect for bludgeoning damage weakness."
+      }
+    },
+    "FuriousFinish": {
+      "Trigger": {
+        "Addendum": "You are fatigued until you rest for at least 10 minutes.",
+        "Description": "<p>When a target takes damage from an origin with the <strong>Furious Finish</strong> effect, as well as Rage's, remove both effects and add the fatigued condition.</p>"
+      }
+    },
+    "Generic": {
+      "Note": {
+        "Label": "Trigger Trove Note"
+      }
+    },
+    "Gibbering": {
+      "Trigger": {
+        "Description": "When a combatant begins their turn within a <strong>Gibbering</strong> aura, send the ability to chat. If a roller succeeds on their saving throw against this ability, add an effect to track their immunity. If they fail, add the confused condition until the start of their next turn."
+      }
+    },
+    "Grapple": {
+      "Trigger": {
+        "Description": "When a roller succeeds on their skill check to <strong>Grapple</strong> a target, that target becomes grabbed. On a critical success, the target becomes restrained instead."
+      }
+    },
+    "ImpressiveLanding": {
+      "Trigger": {
+        "Description": "<p>When the region for <strong>Impressive Landing</strong> is placed, add a difficult terrain Region Behavior to it and roll Impressive Landing's damage. When this damage is taken, add the off-guard condition until the start of the target's next turn.</p>"
+      }
+    },
+    "IncendiaryAura": {
+      "Trigger": {
+        "Description": "<p>When a target within an <strong>Incendiary Aura</strong> takes fire damage, add the corresponding amount of persistent fire damage to that target.</p><p><em>Note: This trigger can only detect fire damage when it's the primary damage type of a roll.</em></p>"
+      }
+    },
+    "IncredibleScout": {
+      "Trigger": {
+        "Description": "When a Scouting combatant with <strong>Incredible Scout</strong> is created, add an effect that upgrades Scout's bonus for all allies benefiting from it."
+      }
+    },
+    "InnerRadianceTorrent": {
+      "Trigger": {
+        "Description": "<p>When a roller saves against the <strong>Inner Radiance Torrent</strong> spell, on critical failure apply blinded for 1 round.</p>"
+      }
+    },
+    "IntenseHeat": {
+      "Trigger": {
+        "Description": "When a combatant enters or starts their turn within an <strong>Intense Heat</strong> aura, roll its damage and post a saving throw against it."
+      }
+    },
+    "Inviolable": {
+      "Trigger": {
+        "Description": "When the target of a successful attack has Inviolable, roll 3d6 spirit damage. If they are holy or unholy, the damage has the corresponding trait."
+      }
+    },
+    "KineticAura": {
+      "Trigger": {
+        "Description": "When a target takes damage and would be knocked out as a result, remove <strong>Kinetic Aura</strong> from them."
+      }
+    },
+    "MagicalFetters": {
+      "Trigger": {
+        "Description": "<p>When a roller saves against the <strong>Magical Fetters</strong> spell, apply an effect depending on their degree of success.</p>"
+      }
+    },
+    "MarshalStances": {
+      "Trigger": {
+        "Description": "When a roller makes a skill check for <strong>Devrin's Cunning Stance</strong>, <strong>Dread Marshal Stance</strong>, <strong>Inspiring Marshal Stance</strong>, or <strong>Strategist Stance</strong>, and they succeed or critically succeed, grant their respective stance effects. If they critically fail, grant a temporary cooldown effect instead."
+      }
+    },
+    "MartialPerformance": {
+      "Trigger": {
+        "Description": "<p>If a target takes damage from an enemy origin with <strong>Martial Performance</strong>, and the origin is under the effects of <em>courageous anthem</em>, <em>rallying anthem</em>, or <em>song of strength</em>; extend the duration of these effects by 1 round. Then, add an effect that prevents effects from benefiting more than once.</p><p>For this trigger to work correctly, the composition effect must have been dragged from the triggering character's chat card.</p>"
+      }
+    },
+    "MirrorImage": {
+      "Item": {
+        "ResourceLabel": "Mirror Images"
+      },
+      "Trigger": {
+        "Description": "When the target of an attack has <strong>Mirror Image</strong>'s effect, decrease the effect's badge value by 1 if the attack misses. If the attack hits, roll a die of the appropriate number of faces to determine if the attack hits its original target, or if it hits a mirror image, reducing the effect's badge value by 1.",
+        "Note": {
+          "Hit": "<strong>Mirror Image</strong> The attack hits you! All your mirror images remain.",
+          "Miss": "<strong>Mirror Image</strong> The attack misses you! One of your mirror images is destroyed."
+        }
+      }
+    },
+    "MountainResilience": {
+      "Trigger": {
+        "Description": "<p>When a target with <strong>Mountain Resilience</strong>'s effect takes bludgeoning, piercing, or slashing damage from an attack, reduce the duration of that effect by 1 minute.</p><p><em>Note: Due to a current limitation, this trigger will only work when the primary damage type is bludgeoning, piercing, or slashing. This covers most cases, but be aware that some instances of the previously mentioned damage types will be missed.</em></p>"
+      }
+    },
+    "MudPit": {
+      "Trigger": {
+        "Description": "When the region for <strong>Mud Pit</strong> is placed, add a difficult terrain Region Behavior to it."
+      }
+    },
+    "Nettleskin": {
+      "Trigger": {
+        "Description": "<p>When the target of a successful melee or unarmed attack has <strong>Nettleskin</strong>'s auxiliary effect and is adjacent to the origin of that attack, roll <em>nettleskin</em>'s damage. When that damage is applied, reduce the duration of nettleskin by 1 round.</p><p>For this trigger to work, <strong>Aux Effect: Nettleskin</strong> must be dragged onto the origin when they cast the spell. Furthermore, it must be dragged from the spell's card in chat for its damage to scale correctly. You can find this auxiliary effect in the <strong>Auxiliary Items</strong> compendium under the Trigger Trove folder.</p>"
+      }
+    },
+    "OneShotOneKill": {
+      "Label": "One Shot, One Kill",
+      "Trigger": {
+        "Description": "When a combatant with <strong>One Shot, One Kill</strong> is created, confirm whether they will use it as a free action. If so, add an effect that enables its additional precision damage until their first successful Strike deals damage, and then remove the effect.",
+        "Prompt": "Trigger Trove — Are you using One Shot, One Kill in this combat?"
+      }
+    },
+    "Overdrive": {
+      "Trigger": {
+        "Description": "If a Crafting check to <strong>Overdrive</strong> is rolled, add the appropriate effect to the roller based on their degree of success. On a critical failure, add an effect to keep track of their malfunctioning gadgets, rolling 1d4 to determine its duration."
+      }
+    },
+    "Panache": {
+      "Trigger": {
+        "Description": "<p>When the roller of a check has the <strong>Panache</strong> class feature and is using a bravado action, add panache to them as appropriate for their degree of success.</p><p>When the origin of an attack uses a finisher, remove panache from them once the attack's damage, if any, is resolved.</p>"
+      }
+    },
+    "PhaseFamiliar": {
+      "Trigger": {
+        "Description": "When a target takes damage and they have <strong>Phase Familiar</strong>'s resistance effect, remove that effect."
+      }
+    },
+    "QiRush": {
+      "Trigger": {
+        "Description": "When the origin casts the spell add the concealed condition with a duration of 1 round to them."
+      }
+    },
+    "Rage": {
+      "Trigger": {
+        "Description": "When a target that is <strong>Raging</strong> takes damage and is knocked out as a result, remove the Rage effect, and grant its temporary Hit Points immunity effect. If the target has <strong>Vitalizing Rage</strong>, create an immunity effect that lasts until the end of their next turn instead."
+      }
+    },
+    "RapidRetreat": {
+      "Trigger": {
+        "Description": "When a target takes damage and they have <strong>Rapid Retreat</strong>'s resistance effect, remove that effect."
+      }
+    },
+    "RavelOfThorns": {
+      "Trigger": {
+        "Description": "When a combatant starts its turn inside a kinetic aura whose source is in <strong>Ravel of Thorns</strong> stance, add an effect to that combatant to apply the corresponding speed penalty. Remove this effect when they leave the kinetic aura."
+      }
+    },
+    "ReinforceEidolon": {
+      "Trigger": {
+        "Description": "When <strong>Reinforce Eidolon</strong> is casted, checks if target has Boost Eidolon and removes it, then adds Reinforce Eidolon to target."
+      }
+    },
+    "RejuvenatingTouch": {
+      "Trigger": {
+        "Description": "When the target of a <em>lay on hands</em> spell is healed by the spell and its origin has the <strong>Rejuvenating Touch</strong> feat, that target receives its temporary Hit Points."
+      }
+    },
+    "ReplenishmentOfWar": {
+      "Trigger": {
+        "Description": "When a target takes damage from an origin with Replenishment of War, and that damage comes from a Strike with their deity's favored weapon, grant Replenishment of War's temporary Hit Points to the origin, as appropriate for the outcome of the Strike. If the damage origin has Shared Replenishment, this trigger will have no effect."
+      }
+    },
+    "RevitalizingFinisher": {
+      "Trigger": {
+        "Description": "When the origin of a successful attack is using <strong>Revitalizing Finisher</strong>, the origin creature and all allies within 30 feet of it gain temporary Hit Points equal to half the origin's level. On a failure, only the origin gains this benefit."
+      }
+    },
+    "Rooting": {
+      "Item": {
+        "DescriptionOverride": {
+          "Basic": "The attack target becomes immobilized ([[/act escape dc=23]]) and clumsy 1 for as long as the immobilization lasts.",
+          "Greater": "The attack target becomes immobilized ([[/act escape dc=28]]) and clumsy 1 for as long as the immobilization lasts.",
+          "Major": "The attack target becomes immobilized ([[/act escape dc=34]]) and clumsy 1 for as long as the immobilization lasts.",
+          "True": "The attack target becomes immobilized ([[/act escape dc=41]]) and clumsy 1 for as long as the immobilization lasts."
+        }
+      },
+      "Trigger": {
+        "Description": "When the origin of a critically successful attack uses a weapon with a <strong>rooting</strong> rune, add the clumsy and immobilized conditions to the target."
+      }
+    },
+    "SafeElements": {
+      "Addendum": "A target with <strong>Aux Effect: Safe Elements</strong> dragged onto them <strong>from the kineticist's sheet</strong> is unaffected by this trigger. You can find this auxiliary effect in the <strong>Auxiliary Items</strong> compendium under the Trigger Trove folder."
+    },
+    "SawtoothTerrain": {
+      "Trigger": {
+        "Description": "<p>When a roller saves against the <strong>Sawtooth Terrain</strong> spell, add persistent bleed damage and an effect containing a Speed penalty depending on their degree of success. If the roller receives magical healing while having this effect, remove the effect. If a template originating from Sawtooth Terrain is placed, add a difficult terrain behavior to it.</p>",
+        "EffectDescription": {
+          "CriticalFailure": "You take a –15-foot circumstance penalty to your Speed until you receive magical healing or benefit from a successful @Check[medicine] check against the origin's spell DC to Administer First Aid.",
+          "Failure": "You take a –10-foot circumstance penalty to your Speed until you receive magical healing or benefit from a successful @Check[medicine] check against the origin's spell DC to Administer First Aid."
+        }
+      }
+    },
+    "ScarsOfSteel": {
+      "Label": "Scars of Steel",
+      "Trigger": {
+        "AwaitConfirmation": {
+          "Prompt": "Trigger Trove — An opponent critically hits you with an attack that deals physical damage. Will you use Scars of Steel?"
+        },
+        "Description": "<p>When a target that is Raging is critically hit by an attack that deals physical damage, and that target has Scars of Steel with available uses left, confirm whether they will use the ability. If so, add an auxiliary effect that enables its resistance, and deplete one use from Scars of Steel.</p><p>Once damage is taken, remove the previously added effect.</p>"
+      }
+    },
+    "Scout": {
+      "Trigger": {
+        "Description": "When a combatant that has an active <strong>Scout</strong> activity is created, add its effect to all allied tokens in the scene."
+      }
+    },
+    "ScoutDedication": {
+      "Trigger": {
+        "Description": "When a Scouting combatant with <strong>Scout Dedication</strong> is created, add an effect that upgrades Scout's bonus for themself and all allies benefiting from it."
+      }
+    },
+    "ScoutsWarning": {
+      "Label": "Scout's Warning",
+      "Trigger": {
+        "AwaitConfirmation": {
+          "Prompt": "Trigger Trove — Will you use Scout's Warning? You must roll a Perception, Stealth, or Survival check for initiative."
+        },
+        "Description": "When a combatant with <strong>Scout's Warning</strong> is created, confirm whether they will use it as a free action. If so, add Scout's Warning effect to the combatant and their allies."
+      }
+    },
+    "SelfishShield": {
+      "Trigger": {
+        "Description": "<p>When a target with <strong>Selfish Shield</strong>'s effect takes damage, remove that effect and add an effect to the target for Selfish's Shield additional damage, reminding the user to target the origin of the damage. If the damage target has <strong>Ongoing Selfishness</strong>, add its effect as well.</p>",
+        "Note": "<p><strong>Trigger Trove Note</strong> An effect for Selfish Shield's extra damage has been added! Target the source of the damage to activate it.</p>"
+      }
+    },
+    "SharedStratagem": {
+      "Trigger": {
+        "ChatMessage": {
+          "PF2E": "<p><strong>Trigger Trove Note</strong> Drag this effect onto the designated ally for Shared Stratagem!</p><p>@UUID[Compendium.pf2e-trigger-trove.auxiliary-items.Item.u6Czd41XiuFK70J3]{Aux Effect: Shared Stratagem}</p>",
+          "SF2E": "<p><strong>Trigger Trove Note</strong> Drag this effect onto the designated ally for Shared Stratagem!</p><p>@UUID[Compendium.pf2e-trigger-trove.sf2e-auxiliary-items.Item.u6Czd41XiuFK70J3]{Aux Effect: Shared Stratagem}</p>"
+        },
+        "Description": "<p>When an attacker with Shared Stratagem successfully attacks their Devise a Stratagem target, and that target isn't being affected by Shared Stratagem already, add a trigger effect marking said target as such, and post a chat message containing an auxiliary effect an ally may drag onto themselves to benefit from Shared Stratagem.</p><p>When an attacker holding the aforementioned auxiliary effect targets the investigator's marked target, that target will be off-guard to that attack.</p><p><em>Note: This trigger may behave incorrectly if you have more than one character using Shared Stratagem to help each other.</em></p>"
+      }
+    },
+    "ShieldsOfTheSpirit": {
+      "Trigger": {
+        "Description": "When the target of an attack has <strong>Shields of the Spirit's</strong> effect, and is inside a champion's aura or benefiting from the <strong>Security</strong> feat, roll <em>shields of the spirit</em>'s damage against the origin of the attack."
+      }
+    },
+    "ShockAndAwe": {
+      "Trigger": {
+        "Description": "<p>When a roller saves against the <strong>Shock and Awe</strong> spell, add the frightened and stunned conditions depending on their degree of success.</p>"
+      }
+    },
+    "Slow": {
+      "Trigger": {
+        "Description": "When a roller saves against the <strong>Slow</strong> spell, apply the slowed condition depending on their degree of success."
+      }
+    },
+    "Smoke": {
+      "Trigger": {
+        "Description": "<p>When a combatant starts their turn withing a <strong>Smoke</strong> aura, send that ability to chat. If a roller fails on their saving throw, increase their Sickened condition to 2. The roller is temporarily immune to the Smoke regardless of the outcome of the roll, add an effect tracking this immunity.</p>"
+      }
+    },
+    "SpikeSkin": {
+      "Trigger": {
+        "Description": "<p>When a target under the effects of <strong>Spike Skin</strong> takes damage from an unarmed attack or a non-reach melee weapon, roll Spike Skin's damage. Additionally, if the damage the target takes is physical, regardless of its source, the duration of Spike Skin is reduced by 1 minute.</p>"
+      }
+    },
+    "SpiritLink": {
+      "Trigger": {
+        "Description": "<p>When a combatant starts their turn and they have a <strong>Spirit Link</strong> auxiliary effect that originated from themselves, check the scene for tokens with an identical effect. If there is such a token, check if they're not at their Hit Point maximum and if so, send a damage-healing roll to chat for both parties of spirit link to apply to themselves.</p><p>For this trigger to work properly, you must add <strong>Aux Effect: Spirit Link</strong> to the spell's description and drag it <strong>from the spell's chat card</strong> to both the spellcaster and the target.  You can find this auxiliary effect in the <strong>Auxiliary Items</strong> compendium under the Trigger Trove folder.</p>",
+        "Note": "<p>At the start of each of your turns, if the target is below maximum Hit Points, it regains 2 Hit Points per spell rank of <em>spirit link</em> (or the difference between its current and maximum Hit Points, if that's lower). You lose as many Hit Points as the target regained.</p>"
+      }
+    },
+    "StaggeringFire": {
+      "Trigger": {
+        "Description": "When the origin of an attack is using <strong>Staggering Fire</strong>, and their attack hits or critically using a weapon in the bow group, the target receives the appropriate speed penalty."
+      }
+    },
+    "SteamKnight": {
+      "Trigger": {
+        "Description": "If a combatant in <strong>Steam Knight</strong> stance starts their turn and there's at least one enemy in their kinetic aura, roll Steam Knight's damage, including a reminder note of the free action they can use to deal this damage, and the necessary saving throw.",
+        "Note": "<strong>Steam Knight</strong> <span class=\"action-glyph\">F</span> At the start of each of your turns, you can emit steam as a free action. It deals fire damage to each creature in your kinetic aura with a @Check[reflex|against:kineticist|basic|options:area-effect,forced-movement] save. A creature that fails is also pushed 5 feet."
+      }
+    },
+    "Stench": {
+      "Trigger": {
+        "Description": "<p>When a combatant starts their turn within—or enters—a <strong>Stench</strong> aura, send that ability to chat. If a roller succeeds on their saving, add an effect tracking their immunity. If the roller fails their saving throw, add the sickened and slowed condition as appropriate for the outcome of their save.</p>"
+      }
+    },
+    "SuppressingFire": {
+      "Trigger": {
+        "Description": "<p>When a roller fails their saving throw against an origin using an area weapon with the <strong>Suppressing Fire</strong> class feature, the roller becomes suppressed until the start of the origin's next turn.</p>"
+      }
+    },
+    "SwaggeringInitiative": {
+      "Label": "Swaggering Initiative",
+      "Trigger": {
+        "AwaitConfirmation": {
+          "Prompt": "Trigger Trove — Will you use Swaggering Initiative in this encounter?"
+        },
+        "Description": "When a combatant with the <strong>Swaggering Initiative</strong> feat is created, confirm whether they will use that feat. If so, toggle their bonus to initiative on. If that combatant is the first one to act, they gain panache."
+      }
+    },
+    "SwordAndPistol": {
+      "Trigger": {
+        "Description": "<p>When the origin of a successful ranged Strike with a one-handed firearm or crossbow has the <strong>Sword and Pistol</strong> feat, and the target is an enemy within their reach—as indicated by the Sword and Pistol toggle in their sheet—add an auxiliary effect that makes the target off-guard to the origin's next melee attack with a one-handed melee weapon. Add a trigger effect to the target of this attack for tracking purposes as well.</p><p>When a target that was off-guard as a result of Sword and Pistol takes damage from a character with that feat using a one-handed melee weapon, remove the auxiliary effect on the attacker, and the trigger effect on the target.</p>"
+      }
+    },
+    "Taunt": {
+      "Trigger": {
+        "Description": "When the origin of an attack is <strong>Taunted</strong>, and the target is not the origin of that Taunt, the origin becomes off-guard until the start of its next turn."
+      }
+    },
+    "ThermalNimbus": {
+      "Trigger": {
+        "Description": "When a combatant starts their turn within, or enters, a kinetic aura whose source is in <strong>Thermal Nimbus</strong> stance, roll the corresponding damage."
+      }
+    },
+    "TreatWounds": {
+      "Trigger": {
+        "Description": "When a target receives healing from <strong>Treat Wounds</strong>, remove the wounded condition and, if the character doesn't have Continual Recovery, add its immunity tracking effect."
+      }
+    },
+    "TrickstersMirrors": {
+      "Item": {
+        "Note": "A damaging effect that affects all targets within your space destroys all of the mirrors.",
+        "ResourceLabel": "Trickster's Mirrors"
+      },
+      "Trigger": {
+        "Description": "<p>If the attacked creature has <strong>Aux Effect: Trickster's Mirrors</strong>, automatically reduce the <strong>Trickster's Mirrors</strong> resource depending on both the outcome of the attack and a randomly generated number, as described by the spell. If the attacker is within 5 feet, roll damage when a mirror is destroyed.</p><p>For this trigger to work, <strong>Aux Effect: Trickster's Mirrors</strong> must be dragged onto the origin when they cast the spell. You can find this auxiliary effect in the <strong>Auxiliary Items</strong> compendium under the Trigger Trove folder.",
+        "Note": {
+          "Hit": "<strong>Trickster's Mirror</strong> The attack hits you! All your mirrors remain.",
+          "Miss": "<p>The attack misses you! One of your mirrors is destroyed. If the attacker was within 5 feet, they must succeed at a @Check[will|basic] save or take mental damage as they believe themselves cut by a shower of glass shards from the breaking mirror.</p>",
+          "MissNoDamage": "<p><strong>Trickster's Mirror</strong> The attack misses you! One of your mirrors is destroyed.</p>"
+        }
+      }
+    },
+    "Trip": {
+      "Trigger": {
+        "Description": "When a roller succeeds on their skill check to <strong>Trip</strong> a target, add the prone condition to the target. Additionally, roll Trip's damage on a critical success. On a critical failure, add the trip condition to the roller instead."
+      }
+    },
+    "UnbalancingBlow": {
+      "Trigger": {
+        "Description": "When a target takes damage from a critical hit from an origin with <strong>Unbalancing Blow</strong>, that target becomes off-guard against the origin's attacks until the end of their next turn."
+      }
+    },
+    "UnbalancingFinisher": {
+      "Trigger": {
+        "Description": "When a target takes damage from an origin using <strong>Unbalancing Finisher</strong>, that target is off-guard until the end of the origin's next turn."
+      }
+    },
+    "UnleashPsyche": {
+      "Trigger": {
+        "Description": "When Unleash Psyche's effect is removed, add the stupefied condition to the parent for 2 rounds, and add an immunity effect against Unleash Psyche's effect for the same duration.",
+        "ImmunityLabel": "Unleash Psyche"
+      }
+    },
+    "VampiricFeast": {
+      "Trigger": {
+        "Description": "<p>When a roller saves against the <strong>Vampiric Feast</strong> spell, apply an effect to the target to track their hp.<br>When damage is taken from the <strong>Vampiric Feast</strong> spell, then create an effect that gives the caster temp hp equal to the difference between the target current hp and the hp store in the temp effect, finally delete the temp effect.</p>"
+      }
+    },
+    "VibrantThorns": {
+      "Item": {
+        "Addendum": "Anytime you cast a vitality spell, the thorns' damage increases to d6s of piercing damage until the start of your next turn."
+      },
+      "Trigger": {
+        "Description": "<p>When the target of a successful melee attack has Vibrant Thorns' auxiliary effect and is adjacent to the origin of the attack, or if the attack was an unarmed attack, roll <em>vibrant thorns'</em> damage. If the target has <strong>Aux Effect: Vibrant Thorns (Increase Damage)</strong>, increase that damage accordingly.</p><p>For this trigger to work, <strong>Aux Effect: Vibrant Thorns</strong> must be dragged onto the origin when they cast the spell. You can find this auxiliary effect in the <strong>Auxiliary Items</strong> compendium under the Trigger Trove folder.</p>"
+      }
+    },
+    "VitalityNetwork": {
+      "Macro": {
+        "DepletedVitalityNetwork": "{actor} has no Hit Points left in their vitality network.",
+        "Hint": "The number of Hit Points you will transfer",
+        "Label": "Transfer Vitality",
+        "NoVitalityNetwork": "{actor} has no vitality network",
+        "Select": "Select a token with a vitality network",
+        "Target": "Target a token to use PF2e Toolbelt's Target Helper feature"
+      },
+      "Trigger": {
+        "Description": "<p>When a combatant with <strong>Transfer Vitality</strong> starts their turn, their <strong>vitality network</strong> regains Hit Points.</p><p>When a token with vitality network is selected and you run the Vitality Network macro, you can select a number of Hit Points to roll as healing and reduce from your vitality network.</p>"
+      }
+    },
+    "Vitalizing": {
+      "Trigger": {
+        "Description": "When the origin of a critically successful attack uses a weapon with a <strong>vitalizing</strong> rune, add the enfeebled 1 condition to the target. Additionally, add the stupefied 1 condition if the rune was a <strong>greater vitalizing</strong> rune."
+      }
+    },
+    "WarningStripes": {
+      "Trigger": {
+        "Description": "<p>If the target of a successful melee unarmed attack has <strong>Warning Stripes</strong>'s auxiliary effect, roll the spell's damage.</p><p>For this trigger to work, <strong>Aux Effect: Warning Stripes</strong> must be dragged onto the origin when they cast the spell. Furthermore, it must be dragged from the spell's card in chat for its damage to scale correctly. You can find this auxiliary effect in the <strong>Auxiliary Items</strong> compendium under the Trigger Trove folder.</p>"
+      }
+    },
+    "WarpingPull": {
+      "Trigger": {
+        "Description": "When a target takes damage and they have <strong>Warping Pull</strong>'s resistance effect, remove that effect."
+      }
+    },
+    "WaveOfDespair": {
+        "Trigger": {
+            "Description": "<p>When a roller saves against the <strong>Wave of Despair</strong> spell, apply a tracking effect depending on their degree of success. On a critical failure, instead apply the slowed condition for 1 minute. At the start of an affected combatant's turn, they attempt a Will save; on a failure, they become slowed 1 for that turn.</p>"
+        }
+    },
+    "WhispersOfTheVoid": {
+      "Trigger": {
+        "Description": "<p>When a roller saves against the <strong>Whispers of the Void</strong> spell, they take persistent void damage, and they become drained and doomed depending on their degree of success.</p>"
+      }
+    },
+    "WingsOfFlame": {
+      "Trigger": {
+        "Description": "<p>When a combatant ends their turn within a <strong>Wings of Flame</strong> aura, send that ability to chat, roll the damage.</p>"
+      }
     }
+  }
 }

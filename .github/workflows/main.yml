@@ -78,12 +78,18 @@ jobs:
       # "version" key required for a valid module manifest.
       - name: Extract Version From Tag
         id: get_version
-        uses: battila7/get-version-action@v2
+        uses:
+          battila7/get-version-action@v2
 
-         # Install dependencies needed for pack compilation
+          # https://github.com/MrVauxs/trigger-animations/blob/master/.github/workflows/main.yml
+      - name: Extract Changelog
+        id: changelog
+        run:
+          node .github/scripts/extract-changelog.mjs ${{steps.get_version.outputs.version-without-v}} "## " "CHANGELOG.md"
+
+          # Install dependencies needed for pack compilation
       - name: Install Dependencies
         run: npm install @foundryvtt/foundryvtt-cli
-
 
       # Build
       - name: Build
@@ -92,7 +98,6 @@ jobs:
       # Combine individual trigger files into a single file
       - name: Combine Trigger Files
         run: node ./scripts/tools/combine-triggers.js
-
 
       # Modify "module.json" with values specific to the release.
       # Since the values for the "version" and "url" keys aren't known ahead of
@@ -155,4 +160,4 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           artifacts: "./module.json, ./module.zip"
           tag: ${{ github.event.release.tag_name }}
-          body: ${{ github.event.release.body }}
+          body: ${{ steps.changelog.outputs.changelog }}
