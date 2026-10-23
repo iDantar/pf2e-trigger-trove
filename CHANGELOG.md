@@ -1,26 +1,49 @@
+## Unreleased
+
+## 2.4.0
+
+- **Triggers**
+  - **New**
+    - (Dantar) `Wave of Despair` This tracks targets that failed or succeeded on initial check and rolls saves against Slow on the start of their turn
+    - (ettioxw) `Boost Eidolon`, `Reinforce Eidolon` to add effects and remove the other if one is used
+    - (Chasarooni) `Qi Rush` Adds concealed effect for 1 round to token casting spell
+  - **Updated**
+    - (Chasarooni) `Grapple` - Changed duration on conditions to be only for 1 round
+    - (Dantar) `Shield of Spirits` - Add holy or unholy trait to damage rolled
+
+- **Updated**
+  - Management of this module was transferred to me @ChasarooniZ, I'll do my best to keep merging in relevant PRs as they show up
+  - Changed release script for easier use
+
 ## 2.3.5
+
 - **Trigger Updates**
   - (Dantar) Fix broken id in Shields of the Spirit trigger
 
 ## 2.3.4
+
 - **Trigger Updates**
   - (Dantar) Fix Shields of the Spirit triggering for every applicable champion
 
 ## 2.3.3
+
 - **Trigger Updates**
   - Patch Shared Stratagem localization key in PF2e
 
 ## 2.3.2
+
 - **Trigger Updates**
   - Limit Dying and Wounded trigger to PCs only
   - Add recovery check automation to Dying and Wounded trigger
 
 ## 2.3.1
+
 - **Trigger Updates**
   - Fix typo in Commanding Presence trigger's description localization key path
   - Update Dying and Wounded prompt to localization instead of plain text mode
 
 ## 2.3.0
+
 - **New Triggers**
   - (Chasarooni) Add trigger for Unleash Psyche's stupefied condition and cooldown
   - (RedB) Add triggers for Furious Finish and Impressive Landing feats
@@ -35,12 +58,13 @@
   - Correct several typos in english language file
 
 ## 2.2.0
+
 - **Enhancements**
   - Register SF2e triggers in pf2e when SF2e Anachronism is enabled (and viceversa)
 - **New Triggers**
   - (valerijatoncinska) Add trigger for Ifrit's Wings of Flame ability
   - (valerijatoncinska) Add Trigger for Nightmare's Smoke ability
-  - Add difficult terrain triggers for 500 Toads, Entangling Flora, and Mud Pit 
+  - Add difficult terrain triggers for 500 Toads, Entangling Flora, and Mud Pit
 - **Trigger Updates**
   - Account for bombard in Suppressing Fire trigger
   - Fix skipping of Treat Wounds immunity effect when origin has Continual Recovery
@@ -48,15 +72,18 @@
   - Update minimum Trigger Engine version to 1.22.0
 
 ## 2.1.0
+
 - **Housekeeping**
   - Update minimum Trigger Engine version to 1.7.0
   - Update type on slug state has-item nodes to has-item-slug
 
 ## 2.0.1
+
 - **Trigger Updates**
   - Account for bravado Strikes in Panache trigger
 
 ## 2.0.0
+
 - **Housekeeping**
   - Update minimum and verified Foundry versions to V14
   - Update minimum Trigger Engine version to 1.6.0
@@ -64,13 +91,15 @@
   - (valerijatoncinska) **Cinder Rat's Fetid Fumes:** When a combatant starts their turn within—or enters—a Fetid Fumes aura, send that ability to chat. If the roller fails their saving throw against that ability, a condition effect for sickened 1 is added, and that roller can't trigger Fetid Fumes until this effect is removed.
 - **Trigger Updates**
   - Fix Treat Wounds trigger not removing wounded condition
-  - Fix Brutal Beating trigger not adding frightened condition 
+  - Fix Brutal Beating trigger not adding frightened condition
 
 ## 1.2.4
+
 - Trigger Updates
   - **Scout** (and other scout-related triggers): Filter out non-characters from loop
 
 ## 1.2.3
+
 - **New Triggers**
   - **Kinetic Aura**: When a target takes damage and would be knocked out as a result, remove Kinetic Aura's effect from them.
   - **Marshal Stances:** When a roller makes a skill check for a marshal stance, and they succeed or critically succeed, grant their respective stance effects. If they critically fail, grant a temporary cooldown effect instead.
@@ -81,14 +110,17 @@
     - Relax targeting requirement to simply remind user to target when Toolbelt's Target Helper is enabled
 
 ## 1.2.2
+
 - **Trigger Updates**
   - (Vauxs) **Scout and Scout Dedication:** Fix their effects persisting after an encounter in some cases by explicitly removing them when a combatant leaves the encounter
 
 ## 1.2.1
+
 - **Trigger Updates**
   - **Critical Specialization** Fix spear text entry in critical specialization text splitter
 
 ## 1.2.0
+
 - **Housekeeping**
   - Update minimum Trigger Engine version to 1.4.0, as it fixes a bug that might have affected some condition-increasing triggers.
 - **New Triggers**
@@ -97,6 +129,7 @@
   - **Scout, Scout's Warning, and Scout Dedication:** Now excludes minions! whoops.
 
 ## 1.1.0
+
 - **New Triggers**
   - **Bon Mot:** When the roller of a Diplomacy check is using the <strong>Bon Mot</strong> action, apply Bon Mot's effect to the target or roller, depending on the outcome. If the roller succeeds on their Bon Mot, remove the effect resulting from a critically failed Bon Mot, if there is one.
 - **Updated Triggers**
@@ -104,7 +137,8 @@
   - **Vitalizing:** Check that the target of the attack is undead
 
 ## 1.0.0
-- Housekeeping 
+
+- Housekeeping
   - Migrate the module to use **Trigger Engine**
     - This means the module **no longer works with PF2e Trigger.** Use **Trigger Engine** instead
   - Add support for SF2e
@@ -131,8 +165,9 @@
     - Using the macro provided in the compendium, you can select a number of Hit Points to roll as healing and automatically deduct them from your vitality network
 
 ## 0.11.0
+
 - Housekeeping
-  - Updates minimum PF2e Trigger version to 2.21.0, which fixes some effects being applied to non-character tokens. 
+  - Updates minimum PF2e Trigger version to 2.21.0, which fixes some effects being applied to non-character tokens.
 - New Triggers
   - Aldori Swordlord
     - _Attack Rolled:_ When a character with this feat hits or critically hits with an attack using an _aldori dueling sword_, they receive the corresponding number of temporary Hit Points.
@@ -143,28 +178,32 @@
   - Regalia Initiate Benefit
     - _Turn Ended:_ Reduce the frightened value of all allies within the aura.
   - Rejuvenating Touch
-    - _Damage Taken:_ (but actually *healing* taken) When the target of a _lay on hands_ spell is healed by the spell and its origin has the Rejuvenating Touch feat, that target receives its temporary Hit Points.
+    - _Damage Taken:_ (but actually _healing_ taken) When the target of a _lay on hands_ spell is healed by the spell and its origin has the Rejuvenating Touch feat, that target receives its temporary Hit Points.
   - Staggering Shot
     - _Attack Rolled:_ When a character using Staggering Fire hits or critically hits with a ranged Strike using a weapon in the bow group, the attack target receives the appropriate speed penalty.
   - Treat Wounds
     - _Damage Taken:_ (but actually _healing_ taken) When a character receives healing from Treat Wounds, remove the wounded condition and add its immunity-tracking effect.
 - Localization
-  - (Lioheart) Updated polish localization 
+  - (Lioheart) Updated polish localization
 
 ## 0.10.3
+
 - **Localization**
   - (Lioheart) Updated polish localization
 
 ## 0.10.2
+
 - **Updated Triggers**
-  - Actually add auxiliary effect for _rooting_ rune 
+  - Actually add auxiliary effect for _rooting_ rune
 
 ## 0.10.1
+
 - **Updated Triggers**
   - Fix typo in _fortification_ rune trigger description
   - Provide further information in _warning stripes_ trigger description
 
 ## 0.10.0
+
 - **New Triggers**
   - Brutal Beating
     - _Damage Taken:_ When a character with Brutal Beating deals critical hit damage to a target, that target becomes frightened 1.
@@ -173,7 +212,7 @@
   - Distracting Shot
     - _Damage Taken:_ When a character with Distracting Shot critically hits their hunted prey, or if they hit their hunted prey twice in the same turn, that target becomes off-guard until the start of the triggering character's next turn. If the character has Greater Distracting Shot, this effect lasts until the end of their next turn instead, and their hunted prey becomes off-guard until the start of their next turn on a hit.
   - Engulf & Swallow Whole
-    - _Turn Ended:_ When a creature that is Engulfed or Swallowed Whole ends their turn, roll that ability's damage. 
+    - _Turn Ended:_ When a creature that is Engulfed or Swallowed Whole ends their turn, roll that ability's damage.
   - Enduring Might and Flame Barrier
     - _Damage Taken:_ Remove these spells' effects when damage is taken.
   - Fortification
@@ -184,23 +223,25 @@
   - Unbalancing Blow
     - _Damage Taken:_ When a character with Unbalancing Blow deals critical hit damage, the target becomes off-guard against the character's attacks until the end of their next turn.
   - Warning Stripes:
-  	- _Attack Rolled:_ If a character affected by Warning Stripes, as determined by the presence of its auxiliary effect, is hit with a melee unarmed attack, roll the spell's damage.
+    - _Attack Rolled:_ If a character affected by Warning Stripes, as determined by the presence of its auxiliary effect, is hit with a melee unarmed attack, roll the spell's damage.
 - **Updated Triggers**
   - Shields of the Spirit
-    - Now accounts for origin's sanctification!  
+    - Now accounts for origin's sanctification!
 - **Localization**
   - (Lioheart) Update polish localization.
 
 ## 0.9.1
+
 - **New Trigger**
   - Diamond Dust
     - _Aura Entered:_ When a character enters a Diamond Dust aura, roll its damage and add an effect to make the character immune to further instances of this trigger.
     - _Turn Ended:_ When a character ends their turn inside a Diamond Dust aura, roll its damage. If a character has the immunity effect added by the Aura Entered trigger, remove that effect.
     - For either of these triggers to work, the spellcaster must have Aux Effect: Diamond Dust applied to them, dragged from the spell when posted to chat. Link this effect in the spell's description.
 - **Localization**
-  - (Lioheart) Update polish localization. 
+  - (Lioheart) Update polish localization.
 
 ## 0.9.0
+
 - **New Triggers**
   - (Ettio) Sword and Pistol
     - _Attack Rolled:_ When a character with Sword and Pistol makes a successful ranged Strike against an enemy within their reach—as indicated by the toggle in their sheet—with a one-handed firearm or crossbow, an auxiliary effect is added that makes the target off-guard to their next melee attack with a one-handed melee weapon. A trigger effect is also added to the target of this attack for tracking purposes.
@@ -225,11 +266,12 @@
     - _Damage Taken:_ Remove Selfish Shield's effect after taking damage. Additionally, add Champion's Extra Damage effect afterwards. The source of the damage must be targeted after the effect is added in order to work correctly. If the trigger target has Ongoing Selfishness, its effect will be added automatically as well.
 - **Updated Triggers**
   - Champion's Resistance
-    - Now has specific support for Glimpse of Redemption. The trigger will  add enfeebled 2 to the damage origin. If the champion has Weight of Guilt, then they will be prompted to decide if they want to make the damage origin stupefied instead.
+    - Now has specific support for Glimpse of Redemption. The trigger will add enfeebled 2 to the damage origin. If the champion has Weight of Guilt, then they will be prompted to decide if they want to make the damage origin stupefied instead.
 - **Localization**
   - (Lioheart) Update polish localization
 
 ## 0.8.0
+
 - **Localization**
   - (Lioheart) Add polish localization
   - Fix some misplaced localization keys for Trickster's Mirrors trigger
@@ -244,6 +286,7 @@
     - _Damage Taken:_ When a creature takes damage from Unbalancing Finisher, it is off-guard until the end of the origin's next turn.
 
 ## 0.7.0
+
 - **Housekeeping**
   - Update minimum PF2e Trigger version to 2.19.0
 - **New Triggers**
@@ -258,23 +301,31 @@
     - Add Stench immunity effect and append a link to said effect when the ability is posted to chat.
 
 ## 0.6.1
+
 - **Housekeeping**
   - Update minimum PF2e Trigger version to 2.17.0
+
 ## 0.6.0
+
 - **Improvements**
   - Add support for localization
+
 ## 0.5.4
+
 - **New Triggers**
   - **Gibbering**:
-    - _Turn Started:_ When a non-immune creature begins its turn within the gibbering aura, send the ability to chat alongside an auxiliary effect to apply immunity.  
+    - _Turn Started:_ When a non-immune creature begins its turn within the gibbering aura, send the ability to chat alongside an auxiliary effect to apply immunity.
 - **Updated Items**
   - Add missing selector to EphemeralEffect on Shared Stratagem's auxiliary effect
+
 ## 0.5.3
+
 - **Updated Triggers**
   - Account for rerolls in Shared Stratagem's trigger
   - Send HP difference to chat instead of double spell rank if it's lower with Spirit Link trigger
 
 ## 0.5.2
+
 - **New Triggers**
   - **Dread Flickering**
     - _Turn Ended:_ When a non-immune living character ends their turn in a Dread Flickering aura, send the ability to chat alongside an immunity auxiliary effect to be applied in the event of a critically successful save.
@@ -288,72 +339,80 @@
   - Add new issue templates for **Trigger Request** and **Trigger Error** issues. Should make it easier to report errors or request triggers, evidently. (Thanks to Chasarooni for letting me copy his homework)
 
 ## 0.5.1
+
 - Fix broken links in Mirror Image and Trickster's Mirrors descriptions.
 - Reclassify critical specialization as equipment triggers
 
 ## 0.5.0
-- **New Triggers**	
+
+- **New Triggers**
   - **Amulet's Abeyance**
-	  - *Damage Taken*: Automatically remove Amulet's Abeyance effect after non-healing damage is taken.
+    - _Damage Taken_: Automatically remove Amulet's Abeyance effect after non-healing damage is taken.
   - **Critical Specialization**
-      - *Damage Taken*: When a creature takes damage from a character with critical specialization with a weapon from the bow, spear, or sword groups, their critical specialization effects are automatically applied.  
-      - Spear and Sword will take *grievous* rune into account.
-      - Only these groups are supported as the rest either a.) already as automated as they can be by the system, or b.) require a saving throw, which I don't want to automatically roll for people.
+    - _Damage Taken_: When a creature takes damage from a character with critical specialization with a weapon from the bow, spear, or sword groups, their critical specialization effects are automatically applied.
+    - Spear and Sword will take _grievous_ rune into account.
+    - Only these groups are supported as the rest either a.) already as automated as they can be by the system, or b.) require a saving throw, which I don't want to automatically roll for people.
   - **Inviolable**
-	  - *Attack Rolled:* When a creature with Inviolable is hit, roll 3d6 spirit damage. If they are holy or unholy, the damage has the corresponding trait.
+    - _Attack Rolled:_ When a creature with Inviolable is hit, roll 3d6 spirit damage. If they are holy or unholy, the damage has the corresponding trait.
   - **Mirror Image & Trickster's Mirrors**
-	  - *Attack Rolled*: If the attacked creature has the respective auxiliary effect, automatically reduce the mirrors/images resource depending on both the outcome of the attack and a randomly generated number, as described by the spell. In the case of Trickster's Mirrors, if the attacker is within 5 feet, also roll damage when a mirror is destroyed.
+    - _Attack Rolled_: If the attacked creature has the respective auxiliary effect, automatically reduce the mirrors/images resource depending on both the outcome of the attack and a randomly generated number, as described by the spell. In the case of Trickster's Mirrors, if the attacker is within 5 feet, also roll damage when a mirror is destroyed.
   - **Nettleskin**
-	  - *Attack Rolled*: Roll Nettleskin's damage when the recipient of the spell is hit with an unarmed attack, or a melee attack by an adjacent attacker. For this trigger to work, the auxiliary effect must be dragged onto the recipient. Furthermore, it must be dragged from the spell's card in chat in order to have the correct damage scaling.
-	  - *Damage Taken*: When an attacker takes Nettleskin damage, reduce the auxiliary effect's duration by 1 round.
+    - _Attack Rolled_: Roll Nettleskin's damage when the recipient of the spell is hit with an unarmed attack, or a melee attack by an adjacent attacker. For this trigger to work, the auxiliary effect must be dragged onto the recipient. Furthermore, it must be dragged from the spell's card in chat in order to have the correct damage scaling.
+    - _Damage Taken_: When an attacker takes Nettleskin damage, reduce the auxiliary effect's duration by 1 round.
   - **Spike Skin**
-	  - *Attack Rolled:* Reduce the duration of Spike Skin's effect by 1 minute each time the user is hit by an attack that deals bludgeoning, piercing, or slashing damage.	
+    - _Attack Rolled:_ Reduce the duration of Spike Skin's effect by 1 minute each time the user is hit by an attack that deals bludgeoning, piercing, or slashing damage.
   - **Steam Knight**
-	  - *Turn Started:* If a character in Steam Knight stance starts their turn and there's an enemy within their kinetic aura, roll damage automatically, including a reminder note of the free action they can use to deal this damage, and the necessary saving throw.
+    - _Turn Started:_ If a character in Steam Knight stance starts their turn and there's an enemy within their kinetic aura, roll damage automatically, including a reminder note of the free action they can use to deal this damage, and the necessary saving throw.
 - **Updated Triggers**
   - Add auxiliary effect to increase **Vibrant's Thorn** damage and link the effect when a vitality spell is cast.
   - Clean up several trigger blueprints.
 
 ## 0.4.0
+
 - **New Triggers**
   - **Aura of Courage**
-      - *Turn Ended*: When a frightened creature ends their turn inside an allies' champion's aura with Aura of Courage, they reduce their frightened value by 1.
+    - _Turn Ended_: When a frightened creature ends their turn inside an allies' champion's aura with Aura of Courage, they reduce their frightened value by 1.
   - **Crowned in Tempest's Fury**
-      - *Aura Entered*: Roll a kineticist's Crowned in Tempest's Fury damage when a creature enters their kinetic aura. If you have Safe Elements, you can designate a party member to be unaffected by this trigger by dragging the Safe Elements auxiliary effect onto them from the kineticist's sheet.
-      - *Turn Ended*: Same thing, but on turn ended inside kinetic aura.
+    - _Aura Entered_: Roll a kineticist's Crowned in Tempest's Fury damage when a creature enters their kinetic aura. If you have Safe Elements, you can designate a party member to be unaffected by this trigger by dragging the Safe Elements auxiliary effect onto them from the kineticist's sheet.
+    - _Turn Ended_: Same thing, but on turn ended inside kinetic aura.
   - **Energy Shots** (by Ettio)
-      - *Combatant Joined*: After confirming that Energy Shot is used, add its damage effect as well as an auxiliary effect to automatically track the shots as a Special Resource. 
-      - *Attack Rolled*: If the attacker has the Energy Shot auxiliary effect, deplete the Energy Shots resource by 1 after attacking with a crossbow or firearm. If there are no more Energy Shots left, remove both effects automatically.
+    - _Combatant Joined_: After confirming that Energy Shot is used, add its damage effect as well as an auxiliary effect to automatically track the shots as a Special Resource.
+    - _Attack Rolled_: If the attacker has the Energy Shot auxiliary effect, deplete the Energy Shots resource by 1 after attacking with a crossbow or firearm. If there are no more Energy Shots left, remove both effects automatically.
   - **Finisher** (by Rhonabwy)
-      - *Attack Rolled*: Remove Panache's effect when a finisher misses. If the attack is rerolled into a success, grant Panache back to enable finisher damage.
-      - *Damage Taken*: Remove Panache's effect from damage origin when finisher damage is dealt.
+    - _Attack Rolled_: Remove Panache's effect when a finisher misses. If the attack is rerolled into a success, grant Panache back to enable finisher damage.
+    - _Damage Taken_: Remove Panache's effect from damage origin when finisher damage is dealt.
   - **Frightful Presence**
-      - *Aura Entered*: Post the Frightful Presence ability to chat when a creature enters the aura. If you have PF2e Toolbelt Target Helper feature enabled, the message will have the triggering creature as its target.
-      - *Aura Entered (Enemies Only)*:  Same as the previous one, but it only affects enemies of the Frightful Presence creature. Just seems convenient.
-      - Obviously, only enable **ONE** of these two, if any.
+    - _Aura Entered_: Post the Frightful Presence ability to chat when a creature enters the aura. If you have PF2e Toolbelt Target Helper feature enabled, the message will have the triggering creature as its target.
+    - _Aura Entered (Enemies Only)_: Same as the previous one, but it only affects enemies of the Frightful Presence creature. Just seems convenient.
+    - Obviously, only enable **ONE** of these two, if any.
 - **Trigger Updates**
-    - Generalize Thermal Nimbus (Damage) into generic Roll Item Damage subtrigger. We love recycling.
-    - Update Shields of the Spirit trigger to take Security into account.
+  - Generalize Thermal Nimbus (Damage) into generic Roll Item Damage subtrigger. We love recycling.
+  - Update Shields of the Spirit trigger to take Security into account.
 
 ## 0.3.0
+
 - Workflow improvements
   - Add release script (Chasarooni)
   - Split triggers into individual JSON files to be merged on build (Chasarooni)
 - New triggers
-  - Apply off-guard to a **Taunted** creature that attacks a creature other than the origin of its taunt effect. (Ettio) 
+  - Apply off-guard to a **Taunted** creature that attacks a creature other than the origin of its taunt effect. (Ettio)
   - Add a **Shared Stratagem** effect to a Devise a Stratagem target, and post an effect to drag onto the designated ally. The target will be off-guard to the designated ally's next attack
 - Updated triggers
   - Use newly introduced Combatant Joined event for One Shot, One Kill trigger
+
 ## 0.2.2
+
 - Add missing auxiliary effect for One Shot, One Kill trigger
 - Add confirmation dialogue for One Shot, One Kill trigger
 
 ## 0.2.1
+
 - Add new triggers
   - Stench
   - One Shot, One Kill
 
 ## 0.2.0
+
 - Add some new triggers
   - Send **Intense Heat** monster ability to chat upon entering or starting turn in the aura, with target if PF2e Toolbelt's Target Helper feature is enabled.
   - **Goblin Scuttle** reminder upon an ally ending a movement in an adjacent space.
